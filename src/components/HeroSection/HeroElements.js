@@ -57,6 +57,16 @@ export const HeroContent = styled.div`
     align-items: center;
 `;
 
+export const HeroImg = styled.img`
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+`;
+
 export const HeroH1 = styled.div`
     color: #fff;
     font-size: 48px;
@@ -71,7 +81,7 @@ export const HeroH1 = styled.div`
     }
 `;
 
-export const HeroP = styled.p`
+/*export const HeroP = styled.p`
     margin-top: 24px;
     color: #fff;
     font-size: 34px;
@@ -85,7 +95,7 @@ export const HeroP = styled.p`
     @media screen and (max-width: 480px) {
         font-size: 28px;
     }
-`;
+`;*/
 
 export const HeroBtnWrapper = styled.div`
     margin-top: 32px;

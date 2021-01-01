@@ -7,7 +7,7 @@ import {
     VideoBg, 
     HeroContent, 
     HeroH1, 
-    HeroP, 
+    HeroImg,
     HeroBtnWrapper, 
     ArrowForward, 
     ArrowRight,
@@ -26,8 +26,8 @@ const HeroSection = () => {
                 <VideoBg autoPlay loop muted playsInline src={Video} type='video/mp4' />
             </HeroBg>
             <HeroContent>
-                <HeroH1>Ebenezer Dallas Gerizim</HeroH1>
-                <HeroP>Dallas, TX</HeroP>
+            <HeroImg src="/images/2018GerizimCCWhite.png"></HeroImg>
+                <HeroH1>Ebenezer Dallas</HeroH1>
                 <HeroBtnWrapper>
                     <Button to="signup" 
                     onMouseEnter={onHover}
