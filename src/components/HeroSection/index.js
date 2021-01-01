@@ -27,7 +27,7 @@ const HeroSection = () => {
             </HeroBg>
             <HeroContent>
             <HeroImg src="/images/2018GerizimCCWhite.png"></HeroImg>
-                <HeroH1>Ebenezer Dallas</HeroH1>
+                <HeroH1>Ebenezer Dallas Gerizim</HeroH1>
                 <HeroBtnWrapper>
                     <Button to="signup" 
                     onMouseEnter={onHover}
