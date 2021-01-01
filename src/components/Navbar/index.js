@@ -2,8 +2,8 @@ import React from 'react';
 import {FaBars} from 'react-icons/fa'
 import {
     Nav, 
-    NavbarContainer,
-    NavLogoImg, 
+    NavbarContainer, 
+    NavLogoImg,
     MobileIcon, 
     NavMenu, 
     NavItem, 
@@ -17,7 +17,7 @@ const Navbar = ({ toggle }) => {
         <>
             <Nav>
                 <NavbarContainer>
-                    <NavLogoImg src="/images/2018GerizimCCWhite.png"></NavLogoImg>
+                    <NavLogoImg src="images/2018GerizimCCWhite.png"></NavLogoImg>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>

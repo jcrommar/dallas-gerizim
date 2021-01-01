@@ -81,22 +81,6 @@ export const HeroH1 = styled.div`
     }
 `;
 
-/*export const HeroP = styled.p`
-    margin-top: 24px;
-    color: #fff;
-    font-size: 34px;
-    text-align: center;
-    max-width: 600px;
-
-    @media screen and (max-width: 768px) {
-        font-size: 34px;
-    }
-
-    @media screen and (max-width: 480px) {
-        font-size: 28px;
-    }
-`;*/
-
 export const HeroBtnWrapper = styled.div`
     margin-top: 32px;
     display: flex;
