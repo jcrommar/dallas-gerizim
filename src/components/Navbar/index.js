@@ -9,7 +9,7 @@ import {
     NavItem, 
     NavLinks,
     NavBtn,
-    NavBtnLink
+    NavBtnLink,
 } from './NavbarElements';
 
 const Navbar = ({ toggle }) => {
@@ -36,7 +36,7 @@ const Navbar = ({ toggle }) => {
                         </NavItem>
                     </NavMenu>
                     <NavBtn>
-                        <NavBtnLink to="/signin">En Vivo</NavBtnLink>
+                        <NavBtnLink to="/signin">YouTube</NavBtnLink>
                     </NavBtn>
                 </NavbarContainer>
             </Nav>
