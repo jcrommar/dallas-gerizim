@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
-import Video from '../../video/drone-mountain.mp4';
+import Video from '../../video/proclama.mp4';
+import Mountain from '../../video/drone-mountain.mp4';
 import { Button } from '../ButtonElement';
 import { 
     HeroContainer, 
@@ -10,7 +11,7 @@ import {
     HeroP, 
     HeroBtnWrapper, 
     ArrowForward, 
-    ArrowRight 
+    ArrowRight,
 } from './HeroElements';
 
 const HeroSection = () => {
@@ -26,13 +27,13 @@ const HeroSection = () => {
                 <VideoBg autoPlay loop muted playsInline src={Video} type='video/mp4' />
             </HeroBg>
             <HeroContent>
-                <HeroH1>Ebenezer Dallas</HeroH1>
-                <HeroP>Gerizim</HeroP>
+                <HeroH1>Ebenezer Dallas Gerizim</HeroH1>
+                <HeroP>Dallas, TX</HeroP>
                 <HeroBtnWrapper>
                     <Button to="signup" 
                     onMouseEnter={onHover}
                     onMouseLeave={onHover}>
-                        En Vivo {hover ? <ArrowForward /> : <ArrowRight />}
+                        YouTube {hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>
                 </HeroBtnWrapper>
             </HeroContent>

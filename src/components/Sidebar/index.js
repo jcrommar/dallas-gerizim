@@ -32,7 +32,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                     </SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>
-                    <SidebarRoute to="/signin">En Vivo</SidebarRoute>
+                    <SidebarRoute to="/signin">YouTube</SidebarRoute>
                 </SideBtnWrap>
             </SidebarWrapper>
         </SidebarContainer>

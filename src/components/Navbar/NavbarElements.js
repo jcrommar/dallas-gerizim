@@ -97,11 +97,12 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(LinkR)`
     border-radius: 50px;
-    background: #0474bc;
+    background: #FF0000;
     white-space: nowrap;
     padding: 10px 22px;
-    color: #010606;
-    font-size: 16px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: bold;
     border: none;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
