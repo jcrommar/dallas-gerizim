@@ -7,7 +7,8 @@ import {
     SidebarMenu,
     SidebarLink,
     SideBtnWrap,
-    SidebarRoute
+    SidebarRoute,
+    SidebarImg
 } from './SidebarElements';
 
 const Sidebar = ({ isOpen, toggle }) => {
@@ -18,6 +19,11 @@ const Sidebar = ({ isOpen, toggle }) => {
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
+                    <SidebarLink>
+                        <SidebarImg src="images/2018GerizimCCWhite.png">
+                            
+                        </SidebarImg>
+                    </SidebarLink>
                     <SidebarLink to="about" onClick={toggle}>
                         HOME
                     </SidebarLink>
