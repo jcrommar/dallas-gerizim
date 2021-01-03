@@ -20,18 +20,18 @@ const Services = () => {
             <ServicesWrapper>
                 <ServicesCard>
                     <ServicesIcon src={Icon1} />
-                    <ServicesH2>Martes</ServicesH2>
-                    <ServicesP>Familar | Virtual</ServicesP>
+                    <ServicesH2>Martes - 7:30PM</ServicesH2>
+                    <ServicesP>Familar | <em>Virtual</em></ServicesP>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={Icon2} />
-                    <ServicesH2>Viernes</ServicesH2>
-                    <ServicesP>Escatologico | Presencial</ServicesP>
+                    <ServicesH2>Viernes - 7:30PM</ServicesH2>
+                    <ServicesP>Escatologico | <em>Presencial</em></ServicesP>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={Icon3} />
-                    <ServicesH2>Domingo</ServicesH2>
-                    <ServicesP>Dominical | Presencial</ServicesP>
+                    <ServicesH2>Domingo - 9:30AM</ServicesH2>
+                    <ServicesP>Dominical | <em>Presencial</em></ServicesP>
                 </ServicesCard>
             </ServicesWrapper>
           </ServicesContainer>  
