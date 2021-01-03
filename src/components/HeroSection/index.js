@@ -29,10 +29,15 @@ const HeroSection = () => {
             <HeroImg src="/images/2018GerizimCCWhite.png"></HeroImg>
                 <HeroH1>Ebenezer Dallas</HeroH1>
                 <HeroBtnWrapper>
-                    <Button to="signup" 
+                    <Button to="about" 
                     onMouseEnter={onHover}
-                    onMouseLeave={onHover}>
-                        YouTube {hover ? <ArrowForward /> : <ArrowRight />}
+                    onMouseLeave={onHover}
+                    smooth={true} 
+                    duration={500} 
+                    spy={true} 
+                    exact='true' 
+                    offset={-80}>
+                        Continuar {hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>
                 </HeroBtnWrapper>
             </HeroContent>
