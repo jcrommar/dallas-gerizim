@@ -8,7 +8,7 @@ export const homeObjOne = {
     description: 'Ebenezer Dallas Gerizim',
     buttonLabel: 'Dirección',
     imgStart: false,
-    img: "/images/Svg_Map.svg",
+    img: "/images/undraw_map_1r69.svg",
     alt: 'ubicacion',
     dark: true,
     primary: true,
