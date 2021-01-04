@@ -30,19 +30,15 @@ const Footer = () => {
                     <FooterLinksWrapper>
                         <FooterLinkItems>
                             <FooterLinkTitle>Gerizim</FooterLinkTitle>
-                                <FooterLink to="/signin">Home</FooterLink>
-                                <FooterLink to="/signin">Oracion</FooterLink>
-                                <FooterLink to="/signin">Contacto</FooterLink>
-                                <FooterLink to="/signin">Informacion</FooterLink>
-                                <FooterLink to="/signin">Gallery</FooterLink>
+                                <FooterLink to="/signin">Pastores</FooterLink>
+                                <FooterLink to="/signin">Eventos</FooterLink>
+                                <FooterLink to="/signin">Servicios</FooterLink>
+                                <FooterLink to="/signin">Ubicacion</FooterLink>
                         </FooterLinkItems>
                         <FooterLinkItems>
                             <FooterLinkTitle>Transmisiones</FooterLinkTitle>
-                                <FooterLink to="/signin">Home</FooterLink>
-                                <FooterLink to="/signin">Oracion</FooterLink>
-                                <FooterLink to="/signin">Contacto</FooterLink>
-                                <FooterLink to="/signin">Informacion</FooterLink>
-                                <FooterLink to="/signin">Gallery</FooterLink>
+                                <FooterLink to="/signin">YouTube</FooterLink>
+                                <FooterLink to="/signin">Facebook Live</FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                     <FooterLinksWrapper>
@@ -54,7 +50,7 @@ const Footer = () => {
                                 <FooterLink to="/signin">YouTube</FooterLink>
                         </FooterLinkItems>
                         <FooterLinkItems>
-                            <FooterLinkTitle>Videos</FooterLinkTitle>
+                            <FooterLinkTitle>Predicas</FooterLinkTitle>
                                 <FooterLink to="/signin">Home</FooterLink>
                                 <FooterLink to="/signin">Oracion</FooterLink>
                                 <FooterLink to="/signin">Contacto</FooterLink>

@@ -61,7 +61,7 @@ const Navbar = ({ toggle }) => {
                             spy={true} 
                             exact='true' 
                             offset={-80}
-                            >Pastores</NavLinks>
+                            >Eventos</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks 
