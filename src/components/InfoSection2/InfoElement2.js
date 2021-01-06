@@ -74,28 +74,6 @@ export const Heading = styled.h1`
     } 
 `;
 
-export const TopLine2 = styled.p`
-    color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#fbc433')};
-    font-size: 16px;
-    line-height: 16px;
-    font-weight: 700;
-    letter-spacing: 1.4px;
-    text-transform: uppercase;
-    margin-bottom: 16px;
-`;
-
-export const Heading2 = styled.h1`
-    margin-bottom: 24px;
-    font-size: 48px;
-    line-height: 1.1;
-    font-weight: 600;
-    color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#213159')};
-
-    @media screen and (max-widht: 480px) {
-        font-size: 32px;
-    } 
-`;
-
 export const Subtitle = styled.p`
     max-width: 440px;
     margin-bottom: 35px;
@@ -118,14 +96,4 @@ export const Img = styled.img`
     width: 100%;
     margin: 0 0 10px 0;
     padding-right: 0;
-    border-radius: 16px;
-    border: 3px solid #fbc433;
-`;
-
-export const SocialIconLink = styled.div`
-    color: #fff;
-    font-size: 24px;
-    justify-content: space-between;
-    align-items: center;
-    width: 50px;
 `;

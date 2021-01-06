@@ -30,36 +30,27 @@ const Footer = () => {
                     <FooterLinksWrapper>
                         <FooterLinkItems>
                             <FooterLinkTitle>Gerizim</FooterLinkTitle>
-                                <FooterLink to="/signin">Home</FooterLink>
-                                <FooterLink to="/signin">Oracion</FooterLink>
-                                <FooterLink to="/signin">Contacto</FooterLink>
-                                <FooterLink to="/signin">Informacion</FooterLink>
-                                <FooterLink to="/signin">Gallery</FooterLink>
+                                <FooterLink to="/signin">Pastores</FooterLink>
+                                <FooterLink to="/signin">Eventos</FooterLink>
+                                <FooterLink to="/signin">Servicios</FooterLink>
+                                <FooterLink to="/signin">Ubicacion</FooterLink>
                         </FooterLinkItems>
                         <FooterLinkItems>
                             <FooterLinkTitle>Transmisiones</FooterLinkTitle>
-                                <FooterLink to="/signin">Home</FooterLink>
-                                <FooterLink to="/signin">Oracion</FooterLink>
-                                <FooterLink to="/signin">Contacto</FooterLink>
-                                <FooterLink to="/signin">Informacion</FooterLink>
-                                <FooterLink to="/signin">Gallery</FooterLink>
+                                <FooterLink to="/signin">YouTube</FooterLink>
+                                <FooterLink to="/signin">Facebook Live</FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                     <FooterLinksWrapper>
                         <FooterLinkItems>
                             <FooterLinkTitle>Social Media</FooterLinkTitle>
-                                <FooterLink to="/signin">Facebook</FooterLink>
-                                <FooterLink to="/signin">Instagram</FooterLink>
-                                <FooterLink to="/signin">Twitter</FooterLink>
-                                <FooterLink to="/signin">YouTube</FooterLink>
+                                <FooterLink to="https://www.facebook.com/EbenezerDallasGerizim">Facebook</FooterLink>
+                                <FooterLink to="https://www.instagram.com/EbenezerDallasGerizim/?fbclid=IwAR3sOM_xz0s4vorox1qV_e_EALUMi7oOEKD8NLbU6yGOSfuylRGqYSdUsmk">Instagram</FooterLink>
+                                <FooterLink to="https://www.youtube.com/channel/UC81SMAEkXeXisfnRIYmw_yg">YouTube</FooterLink>
                         </FooterLinkItems>
                         <FooterLinkItems>
-                            <FooterLinkTitle>Videos</FooterLinkTitle>
-                                <FooterLink to="/signin">Home</FooterLink>
-                                <FooterLink to="/signin">Oracion</FooterLink>
-                                <FooterLink to="/signin">Contacto</FooterLink>
-                                <FooterLink to="/signin">Informacion</FooterLink>
-                                <FooterLink to="/signin">Gallery</FooterLink>
+                            <FooterLinkTitle>Predicas</FooterLinkTitle>
+                                <FooterLink href="https://www.youtube.com/channel/UC81SMAEkXeXisfnRIYmw_yg" target="_blank">YouTube</FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                 </FooterLinksContainer>
@@ -70,13 +61,13 @@ const Footer = () => {
                         </SocialLogo>
                         <WebsiteRights>Ebenezer Dallas © {new Date().getFullYear()}</WebsiteRights>
                         <SocialIcons>
-                            <SocialIconLink href="/" target="_blank" aria-label="Facebook">
+                            <SocialIconLink href="https://www.facebook.com/EbenezerDallasGerizim" target="_blank" aria-label="Facebook">
                                 <FaFacebook />
                             </SocialIconLink>
-                            <SocialIconLink href="/" target="_blank" aria-label="Instagram">
+                            <SocialIconLink href="https://www.instagram.com/EbenezerDallasGerizim/?fbclid=IwAR3sOM_xz0s4vorox1qV_e_EALUMi7oOEKD8NLbU6yGOSfuylRGqYSdUsmk" target="_blank" aria-label="Instagram">
                                 <FaInstagram />
                             </SocialIconLink>
-                            <SocialIconLink href="/" target="_blank" aria-label="YouTube">
+                            <SocialIconLink href="https://www.youtube.com/channel/UC81SMAEkXeXisfnRIYmw_yg" target="_blank" aria-label="YouTube">
                                 <FaYoutube />
                             </SocialIconLink>
                         </SocialIcons>

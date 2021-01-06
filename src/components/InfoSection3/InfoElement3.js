@@ -2,7 +2,14 @@ import styled from 'styled-components';
 
 export const InfoContainer = styled.div`
     color #fff;
-    background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#0474bc')};
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    position: relative;
+    z-index: 1;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/Dallas.jpg');;
+    
 
     @media screen and (max-width: 768px) {
         padding: 100px 0;
@@ -48,7 +55,7 @@ export const Column2 = styled.div`
 
 export const TextWrapper = styled.div`
     max-width 540px;
-    padding-top: 0;
+    padding-top: 90px;
     padding-bottom: 60px;
 `;
 
@@ -63,28 +70,6 @@ export const TopLine = styled.p`
 `;
 
 export const Heading = styled.h1`
-    margin-bottom: 24px;
-    font-size: 48px;
-    line-height: 1.1;
-    font-weight: 600;
-    color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#213159')};
-
-    @media screen and (max-widht: 480px) {
-        font-size: 32px;
-    } 
-`;
-
-export const TopLine2 = styled.p`
-    color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#fbc433')};
-    font-size: 16px;
-    line-height: 16px;
-    font-weight: 700;
-    letter-spacing: 1.4px;
-    text-transform: uppercase;
-    margin-bottom: 16px;
-`;
-
-export const Heading2 = styled.h1`
     margin-bottom: 24px;
     font-size: 48px;
     line-height: 1.1;
@@ -118,14 +103,4 @@ export const Img = styled.img`
     width: 100%;
     margin: 0 0 10px 0;
     padding-right: 0;
-    border-radius: 16px;
-    border: 3px solid #fbc433;
-`;
-
-export const SocialIconLink = styled.div`
-    color: #fff;
-    font-size: 24px;
-    justify-content: space-between;
-    align-items: center;
-    width: 50px;
 `;
