@@ -25,16 +25,16 @@ const Sidebar = ({ isOpen, toggle }) => {
                         </SidebarImg>
                     </SidebarLink>
                     <SidebarLink to="about" onClick={toggle}>
-                        HOME
+                        Pastores
                     </SidebarLink>
                     <SidebarLink to="discover" onClick={toggle}>
-                        ORACION
+                        Eventos
                     </SidebarLink>
                     <SidebarLink to="services" onClick={toggle}>
-                        CONTACTO
+                        Servicios
                     </SidebarLink>
                     <SidebarLink to="signup" onClick={toggle}>
-                        INFORMACION
+                        Ubicacion
                     </SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>

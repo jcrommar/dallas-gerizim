@@ -1,5 +1,5 @@
 import React from 'react';
-import {FaFacebook, FaInstagram} from 'react-icons/fa';
+import { Button } from '../ButtonElement';
 import { 
     InfoContainer, 
     InfoWrapper, 
@@ -9,13 +9,11 @@ import {
     TextWrapper, 
     TopLine, 
     Heading, 
-    Heading2,
     Subtitle, 
     BtnWrap,
     ImgWrap,
-    Img,
-    SocialIconLink
-} from './InfoElement';
+    Img
+} from './InfoElement2';
 
 const InfoSection = ({
     lightBg, 
@@ -23,12 +21,15 @@ const InfoSection = ({
     imgStart, 
     topLine, 
     lightText, 
-    headline,
-    headline2, 
+    headline, 
     darkText, 
     description, 
+    buttonLabel, 
     img, 
     alt,
+    primary,
+    dark,
+    dark2
 }) => {
     return (
         <>
@@ -39,15 +40,19 @@ const InfoSection = ({
                             <TextWrapper>
                                 <TopLine>{topLine}</TopLine>
                                 <Heading lightText={lightText}>{headline}</Heading>
-                                <Heading2 lightText={lightText}>{headline2}</Heading2>
                                 <Subtitle darkText={darkText}>{description}</Subtitle>
                                 <BtnWrap>
-                                    <SocialIconLink href="/" target="_blank" aria-label="Facebook">
-                                        <FaFacebook />
-                                    </SocialIconLink>
-                                    <SocialIconLink href="/" target="_blank" aria-label="Instagram">
-                                        <FaInstagram />
-                                    </SocialIconLink>
+                                    <Button to='home'
+                                    smooth={true}
+                                    duration={500}
+                                    spy={true}
+                                    exact="true"
+                                    offset={-80}
+                                    primary={primary ? 1 : 0}
+                                    dark={dark ? 1 : 0}
+                                    dark2={dark2 ? 1 : 0}
+                                    >
+                                    {buttonLabel}</Button>
                                 </BtnWrap>
                             </TextWrapper>
                         </Column1>
