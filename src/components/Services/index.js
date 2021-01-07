@@ -1,5 +1,4 @@
 import React from 'react';
-import Icon1 from '../../images/Services1.png';
 import Icon2 from '../../images/Svg-1.svg';
 import Icon3 from '../../images/Svg-1.svg';
 import {
@@ -19,7 +18,7 @@ const Services = () => {
             <ServicesH1>Nuestros Servicios</ServicesH1>
             <ServicesWrapper>
                 <ServicesCard>
-                    <ServicesIcon src={Icon1} />
+                    <ServicesIcon src="images/2018GerizimWhite.png" />
                     <ServicesH2>Martes - 7:30PM</ServicesH2>
                     <ServicesP>Familar | <em>Virtual</em></ServicesP>
                 </ServicesCard>

@@ -111,3 +111,12 @@ export const SocialIconLink = styled.div`
     color: #fff;
     font-size: 24px;
 `;
+
+export const NavLogoImg = styled.img`
+    cursor: pointer;
+    height: 68px;
+    width: 68px;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    margin-left: 14px;
+`;

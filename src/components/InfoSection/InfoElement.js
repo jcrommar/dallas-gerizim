@@ -64,7 +64,7 @@ export const TopLine = styled.p`
 
 export const Heading = styled.h1`
     margin-bottom: 24px;
-    font-size: 48px;
+    font-size: 38px;
     line-height: 1.1;
     font-weight: 600;
     color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#213159')};
@@ -86,7 +86,7 @@ export const TopLine2 = styled.p`
 
 export const Heading2 = styled.h1`
     margin-bottom: 24px;
-    font-size: 48px;
+    font-size: 38px;
     line-height: 1.1;
     font-weight: 600;
     color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#213159')};
@@ -116,15 +116,23 @@ export const ImgWrap = styled.div`
 
 export const Img = styled.img`
     width: 100%;
+    height: 80%;
     margin: 0 0 10px 0;
     padding-right: 0;
     border-radius: 16px;
     border: 3px solid #fbc433;
+    box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12)
 `;
 
 export const SocialIconLink = styled.div`
     color: #fff;
-    font-size: 24px;
+    font-size: 30px;
     justify-content: space-between;
     align-items: center;
     width: 50px;

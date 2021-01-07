@@ -55,13 +55,13 @@ export const Column2 = styled.div`
 
 export const TextWrapper = styled.div`
     max-width 540px;
-    padding-top: 90px;
+    padding-top: 0;
     padding-bottom: 60px;
 `;
 
 export const TopLine = styled.p`
     color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#fbc433')};
-    font-size: 16px;
+    font-size: 20px;
     line-height: 16px;
     font-weight: 700;
     letter-spacing: 1.4px;
@@ -84,7 +84,7 @@ export const Heading = styled.h1`
 export const Subtitle = styled.p`
     max-width: 440px;
     margin-bottom: 35px;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 24px;
     color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
 `;

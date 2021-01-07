@@ -16,6 +16,7 @@ import {
     WebsiteRights,
     SocialIcons,
     SocialIconLink,
+    NavLogoImg,
 } from './FooterElements';
 
 const toggleHome = () => {
@@ -56,6 +57,7 @@ const Footer = () => {
                 </FooterLinksContainer>
                 <SocialMedia>
                     <SocialMediaWrap>
+                    <NavLogoImg to='./' onClick={toggleHome} src="images/2018GerizimWhite.png"></NavLogoImg>
                         <SocialLogo to='./' onClick={toggleHome}>
                             Ebenezer Dallas Gerizim
                         </SocialLogo>
