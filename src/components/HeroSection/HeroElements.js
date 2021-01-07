@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { MdKeyboardArrowRight, MdArrowForward } from 'react-icons/md';
+import { CgChevronDoubleDownR, CgChevronDoubleDown  } from 'react-icons/cg';
 
 export const HeroContainer = styled.div`
     background: #0c0c0c;
@@ -88,12 +88,13 @@ export const HeroBtnWrapper = styled.div`
     align-items: center;
 `;
 
-export const ArrowForward = styled(MdArrowForward)`
+export const ArrowDown = styled(CgChevronDoubleDownR)`
     margin-left: 8px;
     font-size: 20px;
 `;
 
-export const ArrowRight = styled(MdKeyboardArrowRight)`
+export const ArrowDown2 = styled(CgChevronDoubleDown)`
     margin-left: 8px;
     font-size: 20px;
 `;
+
