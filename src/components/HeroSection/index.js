@@ -9,8 +9,8 @@ import {
     HeroH1, 
     HeroImg,
     HeroBtnWrapper, 
-    ArrowForward, 
-    ArrowRight,
+    ArrowDown,
+    ArrowDown2,
 } from './HeroElements';
 
 const HeroSection = () => {
@@ -36,9 +36,7 @@ const HeroSection = () => {
                     duration={500} 
                     spy={true} 
                     exact='true' 
-                    offset={-80}>
-                        Continuar {hover ? <ArrowForward /> : <ArrowRight />}
-                    </Button>
+                    offset={-80}>{hover ? <ArrowDown /> : <ArrowDown2 />}</Button>
                 </HeroBtnWrapper>
             </HeroContent>
         </HeroContainer>
