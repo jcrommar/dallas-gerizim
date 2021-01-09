@@ -1,5 +1,5 @@
 import React from 'react';
-import {FaFacebook, FaInstagram} from 'react-icons/fa';
+import {FaFacebook} from 'react-icons/fa';
 import { 
     InfoContainer, 
     InfoWrapper, 
@@ -40,15 +40,15 @@ const InfoSection = ({
                                 <TopLine>{topLine}</TopLine>
                                 <Heading lightText={lightText}>{headline}</Heading>
                                 <Heading2 lightText={lightText}>{headline2}</Heading2>
-                                <Subtitle darkText={darkText}>{description}</Subtitle>
                                 <BtnWrap>
                                     <SocialIconLink to="//facebook.com/ebenezer.gerizim" target="_blank" aria-label="Facebook">
                                         <FaFacebook />
                                     </SocialIconLink>
-                                    <SocialIconLink to="//instagram.com/apostolraulmartinez/" target="_blank" aria-label="Instagram">
-                                        <FaInstagram />
+                                    <SocialIconLink to="//facebook.com/rebeca.garcia.16718" target="_blank" aria-label="Facebook">
+                                        <FaFacebook />
                                     </SocialIconLink>
                                 </BtnWrap>
+                                <Subtitle darkText={darkText}>{description}</Subtitle>
                             </TextWrapper>
                         </Column1>
                         <Column2>

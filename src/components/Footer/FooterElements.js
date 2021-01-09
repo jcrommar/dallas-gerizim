@@ -125,6 +125,11 @@ export const SocialIcons = styled.div`
 export const SocialIconLink = styled(LinkR)`
     color: #fff;
     font-size: 24px;
+    
+    &:hover{
+        color: #fbc433;
+        transition: 0.3s ease-out
+    }
 `;
 
 export const NavLogoImg = styled.img`
