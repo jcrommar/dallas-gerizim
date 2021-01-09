@@ -137,4 +137,10 @@ export const SocialIconLink = styled(LinkR)`
     justify-content: space-between;
     align-items: center;
     width: 50px;
+    margin-bottom: 12px;
+
+    &:hover{
+        color: #fbc433;
+        transition: 0.3s ease-out
+    }
 `;
