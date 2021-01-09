@@ -55,6 +55,19 @@ export const FooterLinkTitle = styled.h1`
     color: #fbc433;
 `;
 
+export const FooterLinkLocal = styled(LinkS)`
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    font-size: 14px;
+    cursor: pointer;
+
+    &:hover{
+        color: #fbc433;
+        transition: 0.3s ease-out
+    }
+`;
+
 export const FooterLink = styled(LinkR)`
     color: #fff;
     text-decoration: none;
