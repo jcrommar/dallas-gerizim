@@ -31,10 +31,30 @@ const Footer = () => {
                     <FooterLinksWrapper>
                         <FooterLinkItems>
                             <FooterLinkTitle>Gerizim</FooterLinkTitle>
-                                <FooterLink to="/signin">Pastores</FooterLink>
-                                <FooterLink to="/signin">Eventos</FooterLink>
-                                <FooterLink to="/signin">Servicios</FooterLink>
-                                <FooterLink to="/signin">Ubicacion</FooterLink>
+                                <FooterLink to="about" 
+                                            smooth={true} 
+                                            duration={500} 
+                                            spy={true} 
+                                            exact='true' 
+                                            offset={-80}>Pastores</FooterLink>
+                                <FooterLink to="discover"
+                                            smooth={true} 
+                                            duration={500} 
+                                            spy={true} 
+                                            exact='true' 
+                                            offset={-80}>Eventos</FooterLink>
+                                <FooterLink to="services"
+                                            smooth={true} 
+                                            duration={500} 
+                                            spy={true} 
+                                            exact='true' 
+                                            offset={-80}>Servicios</FooterLink>
+                                <FooterLink to="signup"
+                                            smooth={true} 
+                                            duration={500} 
+                                            spy={true} 
+                                            exact='true' 
+                                            offset={-80}>Ubicacion</FooterLink>
                         </FooterLinkItems>
                         <FooterLinkItems>
                             <FooterLinkTitle>Transmisiones</FooterLinkTitle>
@@ -51,7 +71,7 @@ const Footer = () => {
                         </FooterLinkItems>
                         <FooterLinkItems>
                             <FooterLinkTitle>Predicas</FooterLinkTitle>
-                                <FooterLink href="https://www.youtube.com/channel/UC81SMAEkXeXisfnRIYmw_yg" target="_blank">YouTube</FooterLink>
+                                <FooterLink href="https://www.youtube.com/channel/UC81SMAEkXeXisfnRIYmw_yg" target="_blank">Videoteca</FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                 </FooterLinksContainer>
