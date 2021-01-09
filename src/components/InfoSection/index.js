@@ -42,10 +42,10 @@ const InfoSection = ({
                                 <Heading2 lightText={lightText}>{headline2}</Heading2>
                                 <Subtitle darkText={darkText}>{description}</Subtitle>
                                 <BtnWrap>
-                                    <SocialIconLink href="/" target="_blank" aria-label="Facebook">
+                                    <SocialIconLink to="//facebook.com/ebenezer.gerizim" target="_blank" aria-label="Facebook">
                                         <FaFacebook />
                                     </SocialIconLink>
-                                    <SocialIconLink href="/" target="_blank" aria-label="Instagram">
+                                    <SocialIconLink to="//instagram.com/apostolraulmartinez/" target="_blank" aria-label="Instagram">
                                         <FaInstagram />
                                     </SocialIconLink>
                                 </BtnWrap>

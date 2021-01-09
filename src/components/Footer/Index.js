@@ -65,13 +65,13 @@ const Footer = () => {
                     <FooterLinksWrapper>
                         <FooterLinkItems>
                             <FooterLinkTitle>Social Media</FooterLinkTitle>
-                                <FooterLink to="https://www.facebook.com/EbenezerDallasGerizim">Facebook</FooterLink>
-                                <FooterLink to="https://www.instagram.com/EbenezerDallasGerizim/?fbclid=IwAR3sOM_xz0s4vorox1qV_e_EALUMi7oOEKD8NLbU6yGOSfuylRGqYSdUsmk">Instagram</FooterLink>
-                                <FooterLink to="https://www.youtube.com/channel/UC81SMAEkXeXisfnRIYmw_yg">YouTube</FooterLink>
+                                <FooterLink to="//facebook.com/EbenezerDallasGerizim" target="_blank" aria-label="Facebook">Facebook</FooterLink>
+                                <FooterLink to="//instagram.com/EbenezerDallasGerizim/?fbclid=IwAR3sOM_xz0s4vorox1qV_e_EALUMi7oOEKD8NLbU6yGOSfuylRGqYSdUsmk" target="_blank" aria-label="Instagram">Instagram</FooterLink>
+                                <FooterLink to="//youtube.com/channel/UC81SMAEkXeXisfnRIYmw_yg" target="_blank" aria-label="YouTube">YouTube</FooterLink>
                         </FooterLinkItems>
                         <FooterLinkItems>
                             <FooterLinkTitle>Predicas</FooterLinkTitle>
-                                <FooterLink href="https://www.youtube.com/channel/UC81SMAEkXeXisfnRIYmw_yg" target="_blank">Videoteca</FooterLink>
+                                <FooterLink to="//youtube.com/c/EbenezerDallas/videos" target="_blank">Videoteca</FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                 </FooterLinksContainer>
@@ -83,13 +83,13 @@ const Footer = () => {
                         </SocialLogo>
                         <WebsiteRights>Ebenezer Dallas © {new Date().getFullYear()}</WebsiteRights>
                         <SocialIcons>
-                            <SocialIconLink href="https://www.facebook.com/EbenezerDallasGerizim" target="_blank" aria-label="Facebook">
+                            <SocialIconLink to="//facebook.com/EbenezerDallasGerizim" target="_blank" aria-label="Facebook">
                                 <FaFacebook />
                             </SocialIconLink>
-                            <SocialIconLink href="https://www.instagram.com/EbenezerDallasGerizim/?fbclid=IwAR3sOM_xz0s4vorox1qV_e_EALUMi7oOEKD8NLbU6yGOSfuylRGqYSdUsmk" target="_blank" aria-label="Instagram">
+                            <SocialIconLink to="//instagram.com/EbenezerDallasGerizim/?fbclid=IwAR3sOM_xz0s4vorox1qV_e_EALUMi7oOEKD8NLbU6yGOSfuylRGqYSdUsmk" target="_blank" aria-label="Instagram">
                                 <FaInstagram />
                             </SocialIconLink>
-                            <SocialIconLink href="https://www.youtube.com/channel/UC81SMAEkXeXisfnRIYmw_yg" target="_blank" aria-label="YouTube">
+                            <SocialIconLink to="//youtube.com/channel/UC81SMAEkXeXisfnRIYmw_yg" target="_blank" aria-label="YouTube">
                                 <FaYoutube />
                             </SocialIconLink>
                         </SocialIcons>
