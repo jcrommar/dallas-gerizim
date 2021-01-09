@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link as LinkR } from 'react-router-dom';
 
 export const InfoContainer = styled.div`
     color #fff;
@@ -130,7 +131,7 @@ export const Img = styled.img`
         0 100px 80px rgba(0, 0, 0, 0.12)
 `;
 
-export const SocialIconLink = styled.div`
+export const SocialIconLink = styled(LinkR)`
     color: #fff;
     font-size: 30px;
     justify-content: space-between;
