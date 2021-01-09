@@ -89,12 +89,10 @@ export const HeroBtnWrapper = styled.div`
 `;
 
 export const ArrowDown = styled(CgChevronDoubleDownR)`
-    margin-left: 8px;
-    font-size: 20px;
+    font-size: 25px;
 `;
 
-export const ArrowDown2 = styled(CgChevronDoubleDown)`
-    margin-left: 8px;
-    font-size: 20px;
+export const ArrowDown2 = styled(CgChevronDoubleDown)`ß
+    font-size: 25px;
 `;
 

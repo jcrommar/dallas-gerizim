@@ -74,7 +74,7 @@ export const SidebarLink = styled(LinkS)`
     text-decoration: overline;
 
     &:hover {
-        color: #213159;
+        color: #fbc433;
         transition: 0.2s ease-in-out;
     }
 `;
