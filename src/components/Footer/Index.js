@@ -17,6 +17,7 @@ import {
     SocialIcons,
     SocialIconLink,
     NavLogoImg,
+    FooterLinkLocal,
 } from './FooterElements';
 
 const toggleHome = () => {
@@ -31,30 +32,30 @@ const Footer = () => {
                     <FooterLinksWrapper>
                         <FooterLinkItems>
                             <FooterLinkTitle>Gerizim</FooterLinkTitle>
-                                <FooterLink to="about" 
+                                <FooterLinkLocal to="about" 
                                             smooth={true} 
                                             duration={500} 
                                             spy={true} 
                                             exact='true' 
-                                            offset={-80}>Pastores</FooterLink>
-                                <FooterLink to="discover"
+                                            offset={-80}>Pastores</FooterLinkLocal>
+                                <FooterLinkLocal to="discover"
                                             smooth={true} 
                                             duration={500} 
                                             spy={true} 
                                             exact='true' 
-                                            offset={-80}>Eventos</FooterLink>
-                                <FooterLink to="services"
+                                            offset={-80}>Eventos</FooterLinkLocal>
+                                <FooterLinkLocal to="services"
                                             smooth={true} 
                                             duration={500} 
                                             spy={true} 
                                             exact='true' 
-                                            offset={-80}>Servicios</FooterLink>
-                                <FooterLink to="signup"
+                                            offset={-80}>Servicios</FooterLinkLocal>
+                                <FooterLinkLocal to="signup"
                                             smooth={true} 
                                             duration={500} 
                                             spy={true} 
                                             exact='true' 
-                                            offset={-80}>Ubicacion</FooterLink>
+                                            offset={-80}>Ubicacion</FooterLinkLocal>
                         </FooterLinkItems>
                         <FooterLinkItems>
                             <FooterLinkTitle>Transmisiones</FooterLinkTitle>
