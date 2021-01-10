@@ -9,7 +9,7 @@ export const homeObjOne = {
     description: 'Año de la Recuperación | 2021',
     buttonLabel: 'Dirección',
     imgStart: false,
-    img: "/images/IMG_1855.JPG",
+    img: "/images/ApostolPastora4345_BK.png",
     alt: 'pastores',
     dark: true,
     primary: true,
