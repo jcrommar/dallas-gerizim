@@ -48,13 +48,13 @@ const InfoSection = ({
                                         <FaFacebook />
                                     </SocialIconLink>
                                 </BtnWrap>
-                                <Subtitle darkText={darkText}>{description}</Subtitle>
                             </TextWrapper>
                         </Column1>
                         <Column2>
                             <ImgWrap>
                                 <Img src={img} alt={alt}/>
                             </ImgWrap>
+                            <Subtitle darkText={darkText}>{description}</Subtitle>
                         </Column2>
                     </InfoRow>
                 </InfoWrapper>

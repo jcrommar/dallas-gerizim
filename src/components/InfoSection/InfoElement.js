@@ -100,7 +100,7 @@ export const Heading2 = styled.h1`
 export const Subtitle = styled.p`
     max-width: 440px;
     margin-bottom: 35px;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 24px;
     color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
 `;
@@ -117,11 +117,11 @@ export const ImgWrap = styled.div`
 
 export const Img = styled.img`
     width: 100%;
-    height: 80%;
     margin: 0 0 10px 0;
+    background-color: #fbc433;
     padding-right: 0;
     border-radius: 16px;
-    border: 3px solid #fbc433;
+    border: 1px solid #fbc433;
     box-shadow:
         0 2.8px 2.2px rgba(0, 0, 0, 0.034),
         0 6.7px 5.3px rgba(0, 0, 0, 0.048),
