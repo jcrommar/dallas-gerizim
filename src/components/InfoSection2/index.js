@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from '../ButtonElement';
+import { ButtonLink } from '../ButtonElement';
 import { 
     InfoContainer, 
     InfoWrapper, 
@@ -12,7 +12,7 @@ import {
     Subtitle, 
     BtnWrap,
     ImgWrap,
-    Img
+    Img,
 } from './InfoElement2';
 
 const InfoSection = ({
@@ -36,13 +36,18 @@ const InfoSection = ({
             <InfoContainer lightBg={lightBg} id={id}>
                 <InfoWrapper>
                     <InfoRow imgStart={imgStart}>
-                        <Column1>
+                    <Column1>
+                            <ImgWrap>
+                                <Img src={img} alt={alt}/>
+                            </ImgWrap>
+                        </Column1>
+                        <Column2>
                             <TextWrapper>
                                 <TopLine>{topLine}</TopLine>
                                 <Heading lightText={lightText}>{headline}</Heading>
                                 <Subtitle darkText={darkText}>{description}</Subtitle>
                                 <BtnWrap>
-                                    <Button to='home'
+                                    <ButtonLink to="//facebook.com/events/3206569116110494/" target="_blank" aria-label="Informacion"
                                     smooth={true}
                                     duration={500}
                                     spy={true}
@@ -52,14 +57,9 @@ const InfoSection = ({
                                     dark={dark ? 1 : 0}
                                     dark2={dark2 ? 1 : 0}
                                     >
-                                    {buttonLabel}</Button>
+                                    {buttonLabel}</ButtonLink>
                                 </BtnWrap>
                             </TextWrapper>
-                        </Column1>
-                        <Column2>
-                            <ImgWrap>
-                                <Img src={img} alt={alt}/>
-                            </ImgWrap>
                         </Column2>
                     </InfoRow>
                 </InfoWrapper>
