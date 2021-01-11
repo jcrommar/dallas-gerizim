@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/dallas-gerizim/static/css/main.64b24a9c.chunk.css",
+    "main.js": "/dallas-gerizim/static/js/main.6c99efe7.chunk.js",
+    "main.js.map": "/dallas-gerizim/static/js/main.6c99efe7.chunk.js.map",
+    "runtime-main.js": "/dallas-gerizim/static/js/runtime-main.16bff5f3.js",
+    "runtime-main.js.map": "/dallas-gerizim/static/js/runtime-main.16bff5f3.js.map",
+    "static/js/2.354ce66c.chunk.js": "/dallas-gerizim/static/js/2.354ce66c.chunk.js",
+    "static/js/2.354ce66c.chunk.js.map": "/dallas-gerizim/static/js/2.354ce66c.chunk.js.map",
+    "index.html": "/dallas-gerizim/index.html",
+    "static/css/main.64b24a9c.chunk.css.map": "/dallas-gerizim/static/css/main.64b24a9c.chunk.css.map",
+    "static/js/2.354ce66c.chunk.js.LICENSE.txt": "/dallas-gerizim/static/js/2.354ce66c.chunk.js.LICENSE.txt",
+    "static/media/proclama.3b295455.mp4": "/dallas-gerizim/static/media/proclama.3b295455.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.16bff5f3.js",
+    "static/js/2.354ce66c.chunk.js",
+    "static/css/main.64b24a9c.chunk.css",
+    "static/js/main.6c99efe7.chunk.js"
+  ]
+}
