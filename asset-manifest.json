@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/dallas-gerizim/static/css/main.64b24a9c.chunk.css",
-    "main.js": "/dallas-gerizim/static/js/main.ecb9323c.chunk.js",
-    "main.js.map": "/dallas-gerizim/static/js/main.ecb9323c.chunk.js.map",
+    "main.js": "/dallas-gerizim/static/js/main.2ee3c512.chunk.js",
+    "main.js.map": "/dallas-gerizim/static/js/main.2ee3c512.chunk.js.map",
     "runtime-main.js": "/dallas-gerizim/static/js/runtime-main.d179bd27.js",
     "runtime-main.js.map": "/dallas-gerizim/static/js/runtime-main.d179bd27.js.map",
     "static/js/2.1446f513.chunk.js": "/dallas-gerizim/static/js/2.1446f513.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.d179bd27.js",
     "static/js/2.1446f513.chunk.js",
     "static/css/main.64b24a9c.chunk.css",
-    "static/js/main.ecb9323c.chunk.js"
+    "static/js/main.2ee3c512.chunk.js"
   ]
 }
