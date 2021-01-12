@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/dallas-gerizim/static/css/main.64b24a9c.chunk.css",
-    "main.js": "/dallas-gerizim/static/js/main.9d3d91d0.chunk.js",
-    "main.js.map": "/dallas-gerizim/static/js/main.9d3d91d0.chunk.js.map",
-    "runtime-main.js": "/dallas-gerizim/static/js/runtime-main.d179bd27.js",
-    "runtime-main.js.map": "/dallas-gerizim/static/js/runtime-main.d179bd27.js.map",
-    "static/js/2.1446f513.chunk.js": "/dallas-gerizim/static/js/2.1446f513.chunk.js",
-    "static/js/2.1446f513.chunk.js.map": "/dallas-gerizim/static/js/2.1446f513.chunk.js.map",
-    "index.html": "/dallas-gerizim/index.html",
-    "static/css/main.64b24a9c.chunk.css.map": "/dallas-gerizim/static/css/main.64b24a9c.chunk.css.map",
-    "static/js/2.1446f513.chunk.js.LICENSE.txt": "/dallas-gerizim/static/js/2.1446f513.chunk.js.LICENSE.txt",
-    "static/media/proclama.3b295455.mp4": "/dallas-gerizim/static/media/proclama.3b295455.mp4"
+    "main.css": "/static/css/main.64b24a9c.chunk.css",
+    "main.js": "/static/js/main.fd88c147.chunk.js",
+    "main.js.map": "/static/js/main.fd88c147.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5d1fd924.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5d1fd924.js.map",
+    "static/js/2.034ab808.chunk.js": "/static/js/2.034ab808.chunk.js",
+    "static/js/2.034ab808.chunk.js.map": "/static/js/2.034ab808.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.64b24a9c.chunk.css.map": "/static/css/main.64b24a9c.chunk.css.map",
+    "static/js/2.034ab808.chunk.js.LICENSE.txt": "/static/js/2.034ab808.chunk.js.LICENSE.txt",
+    "static/media/proclama.3b295455.mp4": "/static/media/proclama.3b295455.mp4"
   },
   "entrypoints": [
-    "static/js/runtime-main.d179bd27.js",
-    "static/js/2.1446f513.chunk.js",
+    "static/js/runtime-main.5d1fd924.js",
+    "static/js/2.034ab808.chunk.js",
     "static/css/main.64b24a9c.chunk.css",
-    "static/js/main.9d3d91d0.chunk.js"
+    "static/js/main.fd88c147.chunk.js"
   ]
 }
