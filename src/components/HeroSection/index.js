@@ -26,7 +26,7 @@ const HeroSection = () => {
                 <VideoBg autoPlay loop muted playsInline src={Video} type='video/mp4' />
             </HeroBg>
             <HeroContent>
-            <HeroImg src="/images/2018GerizimCCWhite.png"></HeroImg>
+            <HeroImg src="https://github.com/jcrommar/dallas-gerizim/blob/main/public/images/2018GerizimCCWhite.png?raw=true"></HeroImg>
                 <HeroH1>Ebenezer Dallas</HeroH1>
                 <HeroBtnWrapper>
                     <Button
