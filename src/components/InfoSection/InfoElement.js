@@ -118,7 +118,7 @@ export const ImgWrap = styled.div`
 export const Img = styled.img`
     width: 100%;
     margin: 0 0 10px 0;
-    background: url('../images/800px-Dallas_view.jpg');
+    background: url('https://github.com/jcrommar/dallas-gerizim/blob/gh-pages/images/800px-Dallas_view.jpg?raw=true');
     padding-right: 0;
     border-radius: 16px;
     border: 1px solid #fbc433;

@@ -8,7 +8,7 @@ export const homeObjThree = {
     description: 'Ebenezer Dallas Gerizim',
     buttonLabel: 'Dirección',
     imgStart: false,
-    img: "/images/dallas-skyline.png",
+    img: "https://github.com/jcrommar/dallas-gerizim/blob/gh-pages/images/dallas-skyline.png?raw=true",
     alt: 'Ubicacion',
     dark: false,
     primary: false,

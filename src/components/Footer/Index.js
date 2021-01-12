@@ -78,7 +78,7 @@ const Footer = () => {
                 </FooterLinksContainer>
                 <SocialMedia>
                     <SocialMediaWrap>
-                    <NavLogoImg to='./' onClick={toggleHome} src="images/2018GerizimWhite.png"></NavLogoImg>
+                    <NavLogoImg to='./' onClick={toggleHome} src="https://github.com/jcrommar/dallas-gerizim/blob/gh-pages/images/2018GerizimWHITE.png?raw=true"></NavLogoImg>
                         <SocialLogo to='./' onClick={toggleHome}>
                             Ebenezer Dallas Gerizim
                         </SocialLogo>

@@ -9,7 +9,7 @@ export const homeObjOne = {
     description: 'Año de la Recuperación | 2021',
     buttonLabel: 'Dirección',
     imgStart: false,
-    img: "/images/ApostolPastora4345_BK.png",
+    img: "https://github.com/jcrommar/dallas-gerizim/blob/gh-pages/images/ApostolPastora4345_BK.png?raw=true",
     alt: 'pastores',
     dark: true,
     primary: true,

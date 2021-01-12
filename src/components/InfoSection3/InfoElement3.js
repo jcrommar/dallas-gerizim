@@ -8,7 +8,7 @@ export const InfoContainer = styled.div`
     padding: 0 30px;
     position: relative;
     z-index: 1;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/Dallas.jpg');;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://github.com/jcrommar/dallas-gerizim/blob/gh-pages/images/Dallas.jpg?raw=true');;
 
     @media screen and (max-width: 768px) {
         padding: 100px 0;
