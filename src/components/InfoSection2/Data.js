@@ -8,7 +8,7 @@ export const homeObjTwo = {
     description: 'Evento Presencial-Virtual',
     buttonLabel: 'Mas Información',
     imgStart: true,
-    img: "https://github.com/jcrommar/dallas-gerizim/blob/gh-pages/images/congreso.jpg?raw=true",
+    img: "https://github.com/jcrommar/dallas-gerizim/blob/main/public/images/palabra.jpg?raw=true",
     alt: 'Ministerio',
     dark: false,
     primary: false,
