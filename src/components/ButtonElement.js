@@ -10,6 +10,7 @@ export const Button = styled(LinkS)`
     color: ${({ dark }) => (dark ? '#0474bc' : '#fff')};
     font-size: ${({ fontBig }) => (fontBig ? '20px' : '16px')};
     outline: none;
+    text-decoration: none;
     border: none;
     cursor: pointer;
     display: flex;
@@ -31,6 +32,7 @@ export const ButtonLink = styled(LinkR)`
     color: ${({ dark }) => (dark ? '#0474bc' : '#fff')};
     font-size: ${({ fontBig }) => (fontBig ? '20px' : '16px')};
     outline: none;
+    text-decoration: none;
     border: none;
     cursor: pointer;
     display: flex;

@@ -7,7 +7,7 @@ export const homeObjTwo = {
     headline: '7º Congreso De La Palabra',
     description: 'Evento Presencial-Virtual',
     buttonLabel: 'Mas Información',
-    imgStart: true,
+    imgStart: false,
     img: "https://github.com/jcrommar/dallas-gerizim/blob/main/public/images/congreso_palabra.jpg?raw=true",
     alt: 'Ministerio',
     dark: false,

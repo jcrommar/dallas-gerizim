@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link as LinkR } from 'react-router-dom';
 import { CgChevronDoubleDownR, CgChevronDoubleDown  } from 'react-icons/cg';
 
 export const HeroContainer = styled.div`
@@ -94,5 +95,23 @@ export const ArrowDown = styled(CgChevronDoubleDownR)`
 
 export const ArrowDown2 = styled(CgChevronDoubleDown)`
     font-size: 25px;
+`;
+
+export const SocialIcons = styled.div`
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    width: 200px;
+`;
+
+export const SocialIconLink = styled(LinkR)`
+    color: #fff;
+    font-size: 24px;
+    
+    &:hover{
+        color: #fbc433;
+        transition: 0.3s ease-out
+    }
 `;
 

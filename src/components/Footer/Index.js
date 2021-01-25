@@ -1,6 +1,6 @@
 import React from 'react';
 import {animateScroll as scroll} from 'react-scroll';
-import {FaFacebook, FaInstagram, FaYoutube} from 'react-icons/fa';
+import {FaFacebook, FaInstagram, FaYoutube, FaSpotify} from 'react-icons/fa';
 
 import {
     FooterContainer,
@@ -59,8 +59,9 @@ const Footer = () => {
                         </FooterLinkItems>
                         <FooterLinkItems>
                             <FooterLinkTitle>Transmisiones</FooterLinkTitle>
-                                <FooterLink to="/signin">YouTube</FooterLink>
-                                <FooterLink to="/signin">Facebook Live</FooterLink>
+                                <FooterLink to="/signin">YT Live</FooterLink>
+                                <FooterLink to="/signin">FB Live</FooterLink>
+                                <FooterLink to="/signin">Gerizim (Pronto)</FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                     <FooterLinksWrapper>
@@ -73,6 +74,7 @@ const Footer = () => {
                         <FooterLinkItems>
                             <FooterLinkTitle>Predicas</FooterLinkTitle>
                                 <FooterLink to="//youtube.com/c/EbenezerDallas/videos" target="_blank">Videoteca</FooterLink>
+                                <FooterLink to="//youtube.com/c/EbenezerDallas/videos" target="_blank">Spotify (Pronto)</FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                 </FooterLinksContainer>
@@ -92,6 +94,9 @@ const Footer = () => {
                             </SocialIconLink>
                             <SocialIconLink to="//youtube.com/channel/UC81SMAEkXeXisfnRIYmw_yg" target="_blank" aria-label="YouTube">
                                 <FaYoutube />
+                            </SocialIconLink>
+                            <SocialIconLink to="//youtube.com/channel/UC81SMAEkXeXisfnRIYmw_yg" target="_blank" aria-label="YouTube">
+                                <FaSpotify />
                             </SocialIconLink>
                         </SocialIcons>
                     </SocialMediaWrap>
