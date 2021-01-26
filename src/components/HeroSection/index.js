@@ -28,7 +28,7 @@ const HeroSection = () => {
                 <VideoBg autoPlay loop muted playsInline src={Video} type='video/mp4' />
             </HeroBg>
             <HeroContent>
-            <HeroImg src="https://github.com/jcrommar/dallas-gerizim/blob/main/public/images/2018GerizimCCWhite.png?raw=true"></HeroImg>
+            <HeroImg src="https://github.com/jcrommar/dallas-gerizim/blob/main/public/images/Gerizim2021LOGO_WHITE.png?raw=true"></HeroImg>
                 <SocialIcons>
                             <SocialIconLink to="//facebook.com/EbenezerDallasGerizim" target="_blank" aria-label="Facebook">
                                 <FaFacebook />

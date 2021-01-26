@@ -20,7 +20,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             <SidebarWrapper>
                 <SidebarMenu>
                     <SidebarLink>
-                        <SidebarImg src="images/2018GerizimCCWhite.png">
+                        <SidebarImg src="images/Gerizim2021LOGO_WHITE.png">
                             
                         </SidebarImg>
                     </SidebarLink>
