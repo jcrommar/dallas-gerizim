@@ -24,6 +24,9 @@ const Sidebar = ({ isOpen, toggle }) => {
                             
                         </SidebarImg>
                     </SidebarLink>
+                    <SidebarLink to="evento" onClick={toggle}>
+                        Congreso
+                    </SidebarLink>
                     <SidebarLink to="about" onClick={toggle}>
                         Pastores
                     </SidebarLink>
