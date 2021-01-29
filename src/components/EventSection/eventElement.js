@@ -7,39 +7,21 @@ export const ServicesContainer = styled.div`
     justify-content: center;
     align-items: center;
     background: #f9f9f9;
-
-    @media screen and (max-width: 768px) {
-        height: 1100px;
-    }
-
-    @media screen and (max-width: 480px) {
-        height: 1300px
-    }
 `;
 
-export const ServicesCard = styled.div`
-    background: #335592;
+export const ServicesContainer2 = styled.div`
+    height: 400px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    border-radius: 5px;
-    max-height: 340px;
-    padding: 30px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.2)
-    transition: all 0.2s ease-in-out;
-
-    &:hover {
-        transform: scale(1.02);
-        transition: all 0.2s ease-in-out;
-        cursor: pointer;
-    }
+    background: #fff;
 `;
 
 export const ServicesH1 = styled.h1`
     font-size: 2.5rem;
     color: #213159 ;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 
     @media screen and (max-width: 480px) {
         font-size: 2rem;
@@ -48,12 +30,12 @@ export const ServicesH1 = styled.h1`
 
 export const ServicesH2 = styled.h2`
     font-size: 1rem;
-    padding-top: 20px;
-    color: #fff;
+    padding-top: 10px;
+    color: #213159;
 `;
 
 export const NavLogoImg = styled.img`
-    height: 100px;
+    height: 200px;
     width: 200px;
     margin-top: 5px;
 `;
