@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started with Ebenezer Dallas Gerizim
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -28,6 +28,12 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run analyse`
+
+webpack plugin which helps you visualize the size of your bundles with an interactive zoom-able tree-map.
+
+(only available in 'development' branch)
 
 ### `npm run eject`
 
