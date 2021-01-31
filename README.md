@@ -33,6 +33,9 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 webpack plugin which helps you visualize the size of your bundles with an interactive zoom-able tree-map.
 
+Runs the app in the development mode.\
+Open [http://127.0.0.1:8888/](http://127.0.0.1:8888/) to view it in the brows
+
 (only available in 'development' branch)
 
 ### `npm run eject`
