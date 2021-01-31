@@ -12,7 +12,7 @@ export default class YouTubeSubscribe extends Component {
 
   static defaultProps = {
     channelName: "",
-    channelid: "UCaYhcUwRBNscFNUKTjgPFiA",
+    channelid: "UC81SMAEkXeXisfnRIYmw_yg",
     theme: "full",
     layout: "default",
     count: "default"
