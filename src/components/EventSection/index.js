@@ -1,4 +1,5 @@
 import React from 'react';
+import YouTubeSubscribe from "../youtubeSubscribe";
 import {
     ServicesContainer,
     ServicesContainer2,
@@ -8,6 +9,9 @@ import {
 } from './eventElement';
 
 const Services = () => {
+
+    let channelid = "UC81SMAEkXeXisfnRIYmw_yg";
+
     return (
         <>
             <ServicesContainer2 id="evento">
@@ -18,9 +22,17 @@ const Services = () => {
                     De La Palabra
                 </ServicesH1>
                 <ServicesH2>
-                    Enero 29-31, 2021
+                    <section className="c-share">
+                        <YouTubeSubscribe
+                        // channelName={channelName}
+                        channelid={channelid}
+                        theme={"default"}
+                        layout={"full"}
+                        count={"default"}
+                        />
+                    </section>
                 </ServicesH2>
-                           <NavLogoImg src="images/youtube_giphy.gif"></NavLogoImg>
+                <NavLogoImg src="images/youtube_giphy.gif"></NavLogoImg>
             </ServicesContainer2>
           <ServicesContainer className="video"
                     id="evento"

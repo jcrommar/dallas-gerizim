@@ -10,7 +10,7 @@ export const ServicesContainer = styled.div`
 `;
 
 export const ServicesContainer2 = styled.div`
-    height: 400px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
