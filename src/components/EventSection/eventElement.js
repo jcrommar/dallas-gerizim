@@ -15,7 +15,7 @@ export const ServicesContainer2 = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #fff;
+    background: #f9f9f9;
 `;
 
 export const ServicesH1 = styled.h1`
@@ -38,4 +38,10 @@ export const NavLogoImg = styled.img`
     height: 200px;
     width: 200px;
     margin-top: 5px;
+`;
+
+export const BtnWrap = styled.div`
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 100px;
 `;

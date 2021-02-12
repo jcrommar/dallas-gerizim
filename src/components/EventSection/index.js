@@ -1,10 +1,11 @@
 import React from 'react';
 import YouTubeSubscribe from "../youtubeSubscribe";
+import { ButtonLink } from '../ButtonElement';
 import {
     ServicesContainer,
     ServicesContainer2,
-    NavLogoImg,
-    ServicesH2
+    ServicesH2,
+    BtnWrap
 } from './eventElement';
 
 const Services = () => {
@@ -48,7 +49,17 @@ const Services = () => {
                         />
                     </section>
                 </ServicesH2>
-                <NavLogoImg src="images/youtube_giphy.gif"></NavLogoImg>
+                {/*<NavLogoImg src="images/youtube_giphy.gif"></NavLogoImg>*/}
+                <BtnWrap>
+                    <ButtonLink to="/" aria-label="Informacion"
+                    smooth={true}
+                    duration={500}
+                    spy={true}
+                    exact="true"
+                    offset={-80}
+                    >
+                    Regresar</ButtonLink>
+                </BtnWrap>
             </ServicesContainer2>
         </>
     )
