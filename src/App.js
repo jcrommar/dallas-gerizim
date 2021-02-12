@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Index from './pages';
-import SigninPage from './pages/signin';
+import SigninPage from './pages/youtube';
 
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
     <Router basename={process.env.PUBLIC_URL}>
       <Switch>
           <Route path="/" component={Index} exact />
-          <Route path="/signin" component={SigninPage} exact />
+          <Route path="/youtube" component={SigninPage} exact />
       </Switch>
     </Router>
   );
