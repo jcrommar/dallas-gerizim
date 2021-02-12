@@ -3,7 +3,6 @@ import YouTubeSubscribe from "../youtubeSubscribe";
 import {
     ServicesContainer,
     ServicesContainer2,
-    ServicesH1,
     NavLogoImg,
     ServicesH2
 } from './eventElement';
@@ -14,26 +13,6 @@ const Services = () => {
 
     return (
         <>
-            <ServicesContainer2 id="evento">
-                <ServicesH1>
-                    7º Congreso
-                </ServicesH1>
-                <ServicesH1>
-                    De La Palabra
-                </ServicesH1>
-                <ServicesH2>
-                    <section className="c-share">
-                        <YouTubeSubscribe
-                        // channelName={channelName}
-                        channelid={channelid}
-                        theme={"default"}
-                        layout={"full"}
-                        count={"default"}
-                        />
-                    </section>
-                </ServicesH2>
-                <NavLogoImg src="images/youtube_giphy.gif"></NavLogoImg>
-            </ServicesContainer2>
           <ServicesContainer className="video"
                     id="evento"
                     style={{
@@ -57,6 +36,20 @@ const Services = () => {
                     />
             {/*} <NavLogoImg src="images/live_now_gif.gif"></NavLogoImg> {*/}
           </ServicesContainer>  
+          <ServicesContainer2 id="evento">
+                <ServicesH2>
+                    <section className="c-share">
+                        <YouTubeSubscribe
+                        // channelName={channelName}
+                        channelid={channelid}
+                        theme={"default"}
+                        layout={"full"}
+                        count={"default"}
+                        />
+                    </section>
+                </ServicesH2>
+                <NavLogoImg src="images/youtube_giphy.gif"></NavLogoImg>
+            </ServicesContainer2>
         </>
     )
 }

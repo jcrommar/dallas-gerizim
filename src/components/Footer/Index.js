@@ -59,9 +59,8 @@ const Footer = () => {
                         </FooterLinkItems>
                         <FooterLinkItems>
                             <FooterLinkTitle>Transmisiones</FooterLinkTitle>
-                                <FooterLink to="/signin">YT Live</FooterLink>
-                                <FooterLink to="/signin">FB Live</FooterLink>
-                                <FooterLink to="/signin">Gerizim (Pronto)</FooterLink>
+                                <FooterLink to="/youtube">YT Live</FooterLink>
+                                <FooterLink to="/youtube">Gerizim (Pronto)</FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                     <FooterLinksWrapper>

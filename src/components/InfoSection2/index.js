@@ -47,7 +47,7 @@ const InfoSection = ({
                                 <Heading lightText={lightText}>{headline}</Heading>
                                 <Subtitle darkText={darkText}>{description}</Subtitle>
                                 <BtnWrap>
-                                    <ButtonLink to="//facebook.com/events/3206569116110494/" target="_blank" aria-label="Informacion"
+                                    <ButtonLink to="//facebook.com/events/?ref=page_internal" target="_blank" aria-label="Informacion"
                                     smooth={true}
                                     duration={500}
                                     spy={true}
