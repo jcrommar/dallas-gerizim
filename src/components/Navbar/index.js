@@ -95,7 +95,7 @@ const Navbar = ({ toggle }) => {
                         </NavItem>
                     </NavMenu>
                     <NavBtn>
-                        <NavBtnLink to="//youtube.com/channel/UC81SMAEkXeXisfnRIYmw_yg" target="_blank" aria-label="YouTube-Live">YouTube</NavBtnLink>
+                        <NavBtnLink to="/youtube" aria-label="YouTube-Live">YouTube</NavBtnLink>
                     </NavBtn>
                 </NavbarContainer>
             </Nav>

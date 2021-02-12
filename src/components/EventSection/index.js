@@ -31,7 +31,7 @@ const Services = () => {
                         width: "100%",
                         height: "100%"
                         }}
-                        src={`https://www.youtube.com/embed/1CbnAzLlrlA`}
+                        src={`http://www.youtube.com/embed/live_stream?channel=UC81SMAEkXeXisfnRIYmw_yg`}
                         frameBorder="0"
                     />
             {/*} <NavLogoImg src="images/live_now_gif.gif"></NavLogoImg> {*/}
