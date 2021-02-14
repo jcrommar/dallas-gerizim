@@ -16,6 +16,10 @@ import {
  } from '../components/InfoSection3/Data';
 import Services from '../components/Services';
 import Footer from '../components/Footer/Index';
+import SocialSection from '../components/SocialSection';
+import {
+    socialObj,
+} from '../components/SocialSection/Data';
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -33,6 +37,7 @@ const Home = () => {
         <InfoSection2 {...homeObjTwo} />
         <Services />
         <InfoSection3 {...homeObjThree} />
+        <SocialSection {...socialObj} />
         <Footer />
         </>
     );
