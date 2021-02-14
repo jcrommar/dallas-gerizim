@@ -39,6 +39,9 @@ const Sidebar = ({ isOpen, toggle }) => {
                     <SidebarLink to="signup" onClick={toggle}>
                         Ubicacion
                     </SidebarLink>
+                    <SidebarLink to="facebook" onClick={toggle}>
+                        Facebook
+                    </SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>
                     <SidebarRoute to="/youtube" aria-label="YouTube-Live">YouTube</SidebarRoute>
