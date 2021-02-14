@@ -93,6 +93,16 @@ const Navbar = ({ toggle }) => {
                             offset={-80}
                             >Ubicacion</NavLinks>
                         </NavItem>
+                        <NavItem>
+                            <NavLinks 
+                            to="facebook"
+                            smooth={true} 
+                            duration={500} 
+                            spy={true} 
+                            exact='true' 
+                            offset={-80}
+                            >Facebook</NavLinks>
+                        </NavItem>
                     </NavMenu>
                     <NavBtn>
                         <NavBtnLink to="/youtube" aria-label="YouTube-Live">YouTube</NavBtnLink>
