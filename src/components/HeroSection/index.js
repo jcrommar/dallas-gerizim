@@ -12,7 +12,8 @@ import {
     ArrowDown,
     ArrowDown2,
     SocialIconLink,
-    SocialIcons
+    SocialIcons,
+    SpotImg,
 } from './HeroElements';
 
 const HeroSection = () => {
@@ -42,7 +43,8 @@ const HeroSection = () => {
                             <SocialIconLink to="//open.spotify.com/show/2DoPcLbIxoW5uv6d32EWhB" target="_blank" aria-label="Spotify">
                                 <FaSpotify />
                             </SocialIconLink>
-                        </SocialIcons>
+                </SocialIcons>
+                <SpotImg src="https://github.com/jcrommar/dallas-gerizim/blob/main/public/images/spotify-podcast-badge-blk-grn-660x160.png?raw=true"></SpotImg>
                 <HeroBtnWrapper>
                     <Button
                     to="about" 
