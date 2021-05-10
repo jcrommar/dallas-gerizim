@@ -39,7 +39,7 @@ const HeroSection = () => {
                             <SocialIconLink to="//youtube.com/channel/UC81SMAEkXeXisfnRIYmw_yg" target="_blank" aria-label="YouTube">
                                 <FaYoutube />
                             </SocialIconLink>
-                            <SocialIconLink to="//youtube.com/channel/UC81SMAEkXeXisfnRIYmw_yg" target="_blank" aria-label="YouTube">
+                            <SocialIconLink to="//open.spotify.com/show/2DoPcLbIxoW5uv6d32EWhB" target="_blank" aria-label="Spotify">
                                 <FaSpotify />
                             </SocialIconLink>
                         </SocialIcons>
