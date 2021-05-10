@@ -55,12 +55,11 @@ const Footer = () => {
                                             duration={500} 
                                             spy={true} 
                                             exact='true' 
-                                            offset={-80}>Ubicacion</FooterLinkLocal>
+                                            offset={-80}>Ubicación</FooterLinkLocal>
                         </FooterLinkItems>
                         <FooterLinkItems>
                             <FooterLinkTitle>Transmisiones</FooterLinkTitle>
-                                <FooterLink to="/youtube">YT Live</FooterLink>
-                                <FooterLink to="/youtube">Gerizim (Pronto)</FooterLink>
+                                <FooterLink to="/youtube">Live</FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                     <FooterLinksWrapper>
@@ -73,7 +72,7 @@ const Footer = () => {
                         <FooterLinkItems>
                             <FooterLinkTitle>Predicas</FooterLinkTitle>
                                 <FooterLink to="//youtube.com/c/EbenezerDallas/videos" target="_blank">Videoteca</FooterLink>
-                                <FooterLink to="//youtube.com/c/EbenezerDallas/videos" target="_blank">Spotify (Pronto)</FooterLink>
+                                <FooterLink to="//open.spotify.com/show/2DoPcLbIxoW5uv6d32EWhB" target="_blank">Spotify</FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                 </FooterLinksContainer>
@@ -94,7 +93,7 @@ const Footer = () => {
                             <SocialIconLink to="//youtube.com/channel/UC81SMAEkXeXisfnRIYmw_yg" target="_blank" aria-label="YouTube">
                                 <FaYoutube />
                             </SocialIconLink>
-                            <SocialIconLink to="//youtube.com/channel/UC81SMAEkXeXisfnRIYmw_yg" target="_blank" aria-label="YouTube">
+                            <SocialIconLink to="//open.spotify.com/show/2DoPcLbIxoW5uv6d32EWhB" target="_blank" aria-label="Spotify">
                                 <FaSpotify />
                             </SocialIconLink>
                         </SocialIcons>
