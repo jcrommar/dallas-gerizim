@@ -68,6 +68,16 @@ export const HeroImg = styled.img`
     margin-bottom: 20px;
 `;
 
+export const SpotImg = styled.img`
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50px;
+    width: 200px;
+    margin-bottom: 20px;
+`;
+
 export const HeroH1 = styled.div`
     color: #fff;
     font-size: 48px;
