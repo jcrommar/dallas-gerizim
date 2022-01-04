@@ -13,6 +13,8 @@ export const homeObjOne = {
     imgStart: false,
     img: "https://github.com/jcrommar/dallas-gerizim/blob/gh-pages/images/ApostolPastora4345_BK.png?raw=true",
     alt: 'pastores',
+    img2: "https://github.com/jcrommar/dallas-gerizim/blob/main/public/images/Gerizim2021LOGO_AllWHITE.png?raw=true",
+    alt2: 'ministerios ebenezer dallas',
     dark: true,
     primary: true,
     darkText: false

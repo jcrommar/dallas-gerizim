@@ -37,7 +37,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                         Servicios
                     </SidebarLink>
                     <SidebarLink to="signup" onClick={toggle}>
-                        Ubicacion
+                        Ubicación
                     </SidebarLink>
                     <SidebarLink to="facebook" onClick={toggle}>
                         Facebook

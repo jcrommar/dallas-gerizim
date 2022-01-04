@@ -36,13 +36,11 @@ export const InfoRow = styled.div`
 `;
 
 export const Column1 = styled.div`
-    margin-bottom: 5px;
     padding: 0 5px;
     grid-area: col1;
 `;
 
 export const Column2 = styled.div`
-    margin-bottom: 5px;
     padding: 0 5px;
     grid-area: col2;
 `;
@@ -115,6 +113,17 @@ export const BtnWrap = styled.div`
 export const ImgWrap = styled.div`
     max-width: 555px;
     height: 100%;
+`;
+
+export const LogoWrapper = styled.div`
+    max-width: 455px;
+    height: 20%;
+`;
+
+export const Img2 = styled.img`
+    width: 50%;
+    margin: 0 0 20px 0;
+    padding-right: 0;
 `;
 
 export const Img = styled.img`

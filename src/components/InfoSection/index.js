@@ -14,7 +14,9 @@ import {
     Subtitle, 
     BtnWrap,
     ImgWrap,
+    LogoWrapper,
     Img,
+    Img2,
     SocialIconLink
 } from './InfoElement';
 
@@ -32,6 +34,8 @@ const InfoSection = ({
     description2,
     img, 
     alt,
+    img2,
+    alt2,
 }) => {
     return (
         <>
@@ -40,6 +44,11 @@ const InfoSection = ({
                     <InfoRow imgStart={imgStart}>
                         <Column1>
                             <TextWrapper>
+                            <LogoWrapper>
+                                <Img2 src={img2} alt={alt2}/>
+                            </LogoWrapper>
+                            <hr />
+                            <br />
                                 <Heading lightText={lightText}>{headline} <SocialIconLink to="//facebook.com/ebenezer.gerizim" target="_blank" aria-label="Facebook">
                                         <FaFacebook />
                                     </SocialIconLink></Heading>
