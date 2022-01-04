@@ -13,7 +13,7 @@ const Services = () => {
     return (
         <>
           <ServicesContainer id="services">
-            <ServicesH1>Nuestros Servicios</ServicesH1>
+            <ServicesH1>Dias De Servicio</ServicesH1>
             <ServicesWrapper>
                 <ServicesCard>
                     <ServicesIcon src="https://raw.githubusercontent.com/jcrommar/dallas-gerizim/c564f24b7e92d81704cb5df6d1d928c12f529632/images/family_.svg" />
