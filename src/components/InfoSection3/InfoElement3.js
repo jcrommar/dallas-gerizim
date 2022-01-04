@@ -59,7 +59,7 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.p`
-    color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#fbc433')};
+    color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#2E9CCA')};
     font-size: 20px;
     line-height: 16px;
     font-weight: 700;

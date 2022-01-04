@@ -3,7 +3,7 @@ import { Link as LinkS } from 'react-scroll';
 import { Link as LinkR } from 'react-router-dom';
 
 export const FooterContainer = styled.footer`
-    background-color: #001937;
+    background-color: #25274D;
 `;
 export const FooterWrap = styled.div`
     padding: 48px 24px;
@@ -52,7 +52,7 @@ export const FooterLinkItems = styled.div`
 export const FooterLinkTitle = styled.h1`
     font-size: 16px;
     margin-bottom: 16px;
-    color: #fbc433;
+    color: #2E9CCA;
 `;
 
 export const FooterLinkLocal = styled(LinkS)`
@@ -63,7 +63,7 @@ export const FooterLinkLocal = styled(LinkS)`
     cursor: pointer;
 
     &:hover{
-        color: #fbc433;
+        color: #2E9CCA;
         transition: 0.3s ease-out
     }
 `;
@@ -76,7 +76,7 @@ export const FooterLink = styled(LinkR)`
     cursor: pointer;
 
     &:hover{
-        color: #fbc433;
+        color: #2E9CCA;
         transition: 0.3s ease-out
     }
 `;
@@ -127,7 +127,7 @@ export const SocialIconLink = styled(LinkR)`
     font-size: 24px;
     
     &:hover{
-        color: #fbc433;
+        color: #2E9CCA;
         transition: 0.3s ease-out
     }
 `;

@@ -120,7 +120,7 @@ export const SocialIconLink = styled(LinkR)`
     font-size: 24px;
     
     &:hover{
-        color: #fbc433;
+        color: #2E9CCA;
         transition: 0.3s ease-out
     }
 `;

@@ -8,6 +8,7 @@ import {
     Column2, 
     TextWrapper, 
     TopLine, 
+    TopLine2,
     Heading, 
     Heading2,
     Subtitle, 
@@ -22,11 +23,13 @@ const InfoSection = ({
     id, 
     imgStart, 
     topLine, 
+    topLine2,
     lightText, 
     headline,
     headline2, 
     darkText, 
     description, 
+    description2,
     img, 
     alt,
 }) => {
@@ -37,16 +40,15 @@ const InfoSection = ({
                     <InfoRow imgStart={imgStart}>
                         <Column1>
                             <TextWrapper>
-                                <TopLine>{topLine}</TopLine>
-                                <Heading lightText={lightText}>{headline}</Heading>
-                                <Heading2 lightText={lightText}>{headline2}</Heading2>
+                                <Heading lightText={lightText}>{headline} <SocialIconLink to="//facebook.com/ebenezer.gerizim" target="_blank" aria-label="Facebook">
+                                        <FaFacebook />
+                                    </SocialIconLink></Heading>
+                                    <TopLine>{topLine}</TopLine>
+                                <Heading2 lightText={lightText}>{headline2} <SocialIconLink to="//facebook.com/rebeca.garcia.16718" target="_blank" aria-label="Facebook">
+                                        <FaFacebook />
+                                    </SocialIconLink></Heading2>
+                                    <TopLine2>{topLine2}</TopLine2>
                                 <BtnWrap>
-                                    <SocialIconLink to="//facebook.com/ebenezer.gerizim" target="_blank" aria-label="Facebook">
-                                        <FaFacebook />
-                                    </SocialIconLink>
-                                    <SocialIconLink to="//facebook.com/rebeca.garcia.16718" target="_blank" aria-label="Facebook">
-                                        <FaFacebook />
-                                    </SocialIconLink>
                                 </BtnWrap>
                             </TextWrapper>
                         </Column1>
@@ -55,6 +57,7 @@ const InfoSection = ({
                                 <Img src={img} alt={alt}/>
                             </ImgWrap>
                             <Subtitle darkText={darkText}>{description}</Subtitle>
+                            <TopLine>{description2}</TopLine>
                         </Column2>
                     </InfoRow>
                 </InfoWrapper>

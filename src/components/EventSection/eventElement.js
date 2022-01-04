@@ -6,7 +6,7 @@ export const ServicesContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #f9f9f9;
+    background: #E7E3D4;
 `;
 
 export const ServicesContainer2 = styled.div`
@@ -15,7 +15,7 @@ export const ServicesContainer2 = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #f9f9f9;
+    background: #E7E3D4;
 `;
 
 export const ServicesH1 = styled.h1`

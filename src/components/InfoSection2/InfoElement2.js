@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const InfoContainer = styled.div`
     color #fff;
-    background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#335592')};
+    background: ${({ lightBg }) => (lightBg ? '#E7E3D4' : '#29648A')};
 
     @media screen and (max-width: 768px) {
         padding: 100px 0;
@@ -53,7 +53,7 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.p`
-    color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#fbc433')};
+    color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#2E9CCA')};
     font-size: 20px;
     line-height: 16px;
     font-weight: 700;

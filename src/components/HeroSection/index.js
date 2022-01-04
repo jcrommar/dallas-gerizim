@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import Video from '../../video/proclama.mp4';
+import Video from '../../video/reivindicacion.mp4';
 import { Button } from '../ButtonElement';
 import {FaFacebook, FaInstagram, FaYoutube, FaSpotify} from 'react-icons/fa';
 import { 
@@ -29,7 +29,7 @@ const HeroSection = () => {
                 <VideoBg autoPlay loop muted playsInline src={Video} type='video/mp4' />
             </HeroBg>
             <HeroContent>
-            <HeroImg src="https://github.com/jcrommar/dallas-gerizim/blob/main/public/images/Gerizim2021LOGO_WHITE.png?raw=true"></HeroImg>
+            <HeroImg src="https://github.com/jcrommar/dallas-gerizim/blob/main/public/images/Gerizim2021LOGO_AllWHITE.png?raw=true"></HeroImg>
                 <SocialIcons>
                             <SocialIconLink to="//facebook.com/EbenezerDallasGerizim" target="_blank" aria-label="Facebook">
                                 <FaFacebook />

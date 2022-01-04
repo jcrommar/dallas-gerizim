@@ -3,7 +3,7 @@ import { Link as LinkR } from 'react-router-dom';
 
 export const InfoContainer = styled.div`
     color #fff;
-    background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#335592')};
+    background: ${({ lightBg }) => (lightBg ? '#E7E3D4' : '#29648A')};
 
     @media screen and (max-width: 768px) {
         padding: 100px 0;
@@ -36,14 +36,14 @@ export const InfoRow = styled.div`
 `;
 
 export const Column1 = styled.div`
-    margin-bottom: 15px;
-    padding: 0 15px;
+    margin-bottom: 5px;
+    padding: 0 5px;
     grid-area: col1;
 `;
 
 export const Column2 = styled.div`
-    margin-bottom: 15px;
-    padding: 0 15px;
+    margin-bottom: 5px;
+    padding: 0 5px;
     grid-area: col2;
 `;
 
@@ -54,7 +54,7 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.p`
-    color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#fbc433')};
+    color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#2E9CCA')};
     font-size: 16px;
     line-height: 16px;
     font-weight: 700;
@@ -65,7 +65,7 @@ export const TopLine = styled.p`
 
 export const Heading = styled.h1`
     margin-bottom: 24px;
-    font-size: 38px;
+    font-size: 32px;
     line-height: 1.1;
     font-weight: 600;
     color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#213159')};
@@ -76,7 +76,7 @@ export const Heading = styled.h1`
 `;
 
 export const TopLine2 = styled.p`
-    color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#fbc433')};
+    color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#2E9CCA')};
     font-size: 16px;
     line-height: 16px;
     font-weight: 700;
@@ -87,7 +87,7 @@ export const TopLine2 = styled.p`
 
 export const Heading2 = styled.h1`
     margin-bottom: 24px;
-    font-size: 38px;
+    font-size: 32px;
     line-height: 1.1;
     font-weight: 600;
     color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#213159')};
@@ -98,11 +98,13 @@ export const Heading2 = styled.h1`
 `;
 
 export const Subtitle = styled.p`
-    max-width: 440px;
-    margin-bottom: 35px;
-    font-size: 20px;
-    line-height: 24px;
-    color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
+    color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#FFF')};
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
 `;
 
 export const BtnWrap = styled.div`
@@ -121,7 +123,7 @@ export const Img = styled.img`
     background: url('https://github.com/jcrommar/dallas-gerizim/blob/gh-pages/images/800px-Dallas_view.jpg?raw=true');
     padding-right: 0;
     border-radius: 16px;
-    border: 1px solid #fbc433;
+    border: 1px solid #2E9CCA;
     box-shadow:
         0 2.8px 2.2px rgba(0, 0, 0, 0.034),
         0 6.7px 5.3px rgba(0, 0, 0, 0.048),
@@ -140,7 +142,7 @@ export const SocialIconLink = styled(LinkR)`
     margin-bottom: 12px;
 
     &:hover{
-        color: #fbc433;
+        color: #B23850;
         transition: 0.3s ease-out
     }
 `;
