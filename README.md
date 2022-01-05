@@ -14,7 +14,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm run deploy
+### `npm run deploy`
 
 Run command after pushing to github. This will update the build and website but will need to adjust page settings in GitHub and wait for DNS to refresh. Website will go down momentarily and once custom domain is applied to settings, website will render once again. 
 
