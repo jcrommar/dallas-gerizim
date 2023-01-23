@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import Video from '../../video/reivindicacion.mp4';
+import Video from '../../video/Reconocimiento.mov';
 import { Button } from '../ButtonElement';
 import {FaFacebook, FaInstagram, FaYoutube, FaSpotify} from 'react-icons/fa';
 import { 
