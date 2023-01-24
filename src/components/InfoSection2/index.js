@@ -47,7 +47,7 @@ const InfoSection = ({
                                 <Heading lightText={lightText}>{headline}</Heading>
                                 <Subtitle darkText={darkText}>{description}</Subtitle>
                                 <BtnWrap>
-                                    <ButtonLink to="//facebook.com/EbenezerDallasGerizim/events/" target="_blank" aria-label="Informacion"
+                                    <ButtonLink to="//congresodelapalabra.epizy.com/?i=1" target="_blank" aria-label="Informacion"
                                     smooth={true}
                                     duration={500}
                                     spy={true}
