@@ -6,7 +6,7 @@ export const homeObjTwo = {
     topLine: 'Enero 2023',
     headline: 'Congreso De La Palabra',
     description: 'Jueves 26 - Domingo 29',
-    buttonLabel: 'Mas Información',
+    buttonLabel: '*CONGRESO 2023*',
     imgStart: false,
     img: "https://github.com/jcrommar/dallas-gerizim/blob/main/public/images/congreso_palabra_2023.jpeg?raw=true",
     alt: 'Ministerio',
