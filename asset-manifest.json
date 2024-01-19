@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.64b24a9c.chunk.css",
-    "main.js": "/static/js/main.a7d4a750.chunk.js",
-    "main.js.map": "/static/js/main.a7d4a750.chunk.js.map",
+    "main.js": "/static/js/main.f3676a6d.chunk.js",
+    "main.js.map": "/static/js/main.f3676a6d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5d1fd924.js",
     "runtime-main.js.map": "/static/js/runtime-main.5d1fd924.js.map",
     "static/js/2.a9b5c4d2.chunk.js": "/static/js/2.a9b5c4d2.chunk.js",
@@ -10,12 +10,12 @@
     "index.html": "/index.html",
     "static/css/main.64b24a9c.chunk.css.map": "/static/css/main.64b24a9c.chunk.css.map",
     "static/js/2.a9b5c4d2.chunk.js.LICENSE.txt": "/static/js/2.a9b5c4d2.chunk.js.LICENSE.txt",
-    "static/media/Reconocimiento.53e299c3.mov": "/static/media/Reconocimiento.53e299c3.mov"
+    "static/media/Recompensa2024.517cf60d.mp4": "/static/media/Recompensa2024.517cf60d.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.5d1fd924.js",
     "static/js/2.a9b5c4d2.chunk.js",
     "static/css/main.64b24a9c.chunk.css",
-    "static/js/main.a7d4a750.chunk.js"
+    "static/js/main.f3676a6d.chunk.js"
   ]
 }
