@@ -47,7 +47,7 @@ const InfoSection = ({
                                 <Heading lightText={lightText}>{headline}</Heading>
                                 <Subtitle darkText={darkText}>{description}</Subtitle>
                                 <BtnWrap>
-                                    <ButtonLink to="//jcrommar.github.io/congresopalabra/" target="_blank" aria-label="Informacion"
+                                    <ButtonLink to="//jcrommar.github.io/Congreso2024/" target="_blank" aria-label="Informacion"
                                     smooth={true}
                                     duration={500}
                                     spy={true}
