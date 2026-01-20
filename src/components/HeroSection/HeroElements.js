@@ -63,8 +63,8 @@ export const HeroImg = styled.img`
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     margin-bottom: 20px;
 `;
 
@@ -73,8 +73,8 @@ export const SpotImg = styled.img`
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 50px;
-    width: 200px;
+    height: 35px;
+    width: 140px;
     margin-bottom: 20px;
 `;
 
