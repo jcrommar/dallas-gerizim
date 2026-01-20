@@ -8,7 +8,7 @@ export const homeObjTwo = {
     description: 'Jueves 22 - Domingo 25',
     buttonLabel: '* CONGRESO *',
     imgStart: false,
-    img: "https://github.com/jcrommar/dallas-gerizim/blob/main/public/images/Congreso_2026.JPG?raw=true",
+    img: "https://github.com/jcrommar/dallas-gerizim/blob/main/public/images/Congreso_2026_2.JPEG?raw=true",
     alt: 'Ministerio',
     dark: false,
     primary: false,
