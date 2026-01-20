@@ -8,7 +8,7 @@ export const InfoContainer = styled.div`
     padding: 0 30px;
     position: relative;
     z-index: 1;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://github.com/jcrommar/dallas-gerizim/blob/main/public/images/Dallas.jpg?raw=true');;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.squarespace-cdn.com/content/v1/60786b55d8b624331628c2e9/c9e5596e-8cef-447e-b196-eba6b6b9343a/Dallas.jpg?format=2500w');;
 
     @media screen and (max-width: 768px) {
         padding: 100px 0;

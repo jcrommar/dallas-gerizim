@@ -1,5 +1,5 @@
 import React from 'react';
-import {FaFacebook} from 'react-icons/fa';
+import {FaFacebook, FaInstagram} from 'react-icons/fa';
 import { 
     InfoContainer, 
     InfoWrapper, 
@@ -47,14 +47,21 @@ const InfoSection = ({
                             <LogoWrapper>
                                 <Img2 src={img2} alt={alt2}/>
                             </LogoWrapper>
+                            <Subtitle darkText={darkText}>{description}</Subtitle>
                             <hr />
                             <br />
                                 <Heading lightText={lightText}>{headline} <SocialIconLink to="//facebook.com/ebenezer.gerizim" target="_blank" aria-label="Facebook">
                                         <FaFacebook />
+                                    </SocialIconLink>
+                                    <SocialIconLink to="//instagram.com/apostolraulmartinez?igsh=YTAzM3RuZnJ6NXA2" target="_blank" aria-label="Instagram">
+                                        <FaInstagram />
                                     </SocialIconLink></Heading>
                                     <TopLine>{topLine}</TopLine>
                                 <Heading2 lightText={lightText}>{headline2} <SocialIconLink to="//facebook.com/rebeca.garcia.16718" target="_blank" aria-label="Facebook">
                                         <FaFacebook />
+                                    </SocialIconLink>
+                                    <SocialIconLink to="//instagram.com/gnrebe?igsh=and3N2NhazJneWxj" target="_blank" aria-label="Instagram">
+                                        <FaInstagram />
                                     </SocialIconLink></Heading2>
                                     <TopLine2>{topLine2}</TopLine2>
                                 <BtnWrap>
@@ -65,7 +72,6 @@ const InfoSection = ({
                             <ImgWrap>
                                 <Img src={img} alt={alt}/>
                             </ImgWrap>
-                            <Subtitle darkText={darkText}>{description}</Subtitle>
                             <TopLine>{description2}</TopLine>
                         </Column2>
                     </InfoRow>

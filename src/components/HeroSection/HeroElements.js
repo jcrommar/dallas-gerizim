@@ -93,7 +93,7 @@ export const HeroH1 = styled.div`
 `;
 
 export const HeroBtnWrapper = styled.div`
-    margin-top: 32px;
+    margin-top: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;

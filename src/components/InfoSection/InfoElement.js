@@ -52,17 +52,17 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.p`
-    color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#2E9CCA')};
+    color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#FFF')};
     font-size: 16px;
     line-height: 16px;
     font-weight: 700;
     letter-spacing: 1.4px;
     text-transform: uppercase;
-    margin-bottom: 16px;
+    margin-bottom: 26px;
 `;
 
 export const Heading = styled.h1`
-    margin-bottom: 24px;
+    margin-bottom: 14px;
     font-size: 32px;
     line-height: 1.1;
     font-weight: 600;
@@ -74,17 +74,17 @@ export const Heading = styled.h1`
 `;
 
 export const TopLine2 = styled.p`
-    color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#2E9CCA')};
+    color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#FFF')};
     font-size: 16px;
     line-height: 16px;
     font-weight: 700;
     letter-spacing: 1.4px;
     text-transform: uppercase;
-    margin-bottom: 16px;
+    margin-bottom: 26px;
 `;
 
 export const Heading2 = styled.h1`
-    margin-bottom: 24px;
+    margin-bottom: 14px;
     font-size: 32px;
     line-height: 1.1;
     font-weight: 600;
@@ -121,7 +121,7 @@ export const LogoWrapper = styled.div`
 `;
 
 export const Img2 = styled.img`
-    width: 50%;
+    width: 30%;
     margin: 0 0 20px 0;
     padding-right: 0;
 `;
@@ -129,10 +129,10 @@ export const Img2 = styled.img`
 export const Img = styled.img`
     width: 100%;
     margin: 0 0 10px 0;
-    background: url('https://github.com/jcrommar/dallas-gerizim/blob/gh-pages/images/800px-Dallas_view.jpg?raw=true');
+    //background: url('https://github.com/jcrommar/dallas-gerizim/blob/gh-pages/images/800px-Dallas_view.jpg?raw=true');
     padding-right: 0;
     border-radius: 16px;
-    border: 1px solid #2E9CCA;
+    //border: 1px solid #2E9CCA;
     box-shadow:
         0 2.8px 2.2px rgba(0, 0, 0, 0.034),
         0 6.7px 5.3px rgba(0, 0, 0, 0.048),
@@ -149,6 +149,7 @@ export const SocialIconLink = styled(LinkR)`
     align-items: center;
     width: 50px;
     margin-bottom: 12px;
+    margin-left: 10px;
 
     &:hover{
         color: #B23850;
