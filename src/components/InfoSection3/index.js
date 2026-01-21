@@ -37,9 +37,9 @@ const InfoSection = ({
                     <InfoRow imgStart={imgStart}>
                         <Column1>
                             <TextWrapper>
+                                <Subtitle darkText={darkText}>{description}</Subtitle>
                                 <TopLine>{topLine}</TopLine>
                                 <Heading lightText={lightText}>{headline}</Heading>
-                                <Subtitle darkText={darkText}>{description}</Subtitle>
                                 <BtnWrap>
                                     <ButtonLink to="//google.com/maps/place/1200+West+Shore+Dr,+Richardson,+TX+75080/@32.9666657,-96.7496225,17z/data=!3m1!4b1!4m5!3m4!1s0x864c1f5fa4e8042d:0xced14266b4f95d38!8m2!3d32.9666657!4d-96.7474338" target="_blank" aria-label="Direccion"
                                     smooth={true}

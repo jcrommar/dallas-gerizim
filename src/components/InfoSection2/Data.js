@@ -6,7 +6,7 @@ export const homeObjTwo = {
     topLine: 'Enero 2026',
     headline: 'Congreso De La Palabra',
     description: 'Jueves 22 - Domingo 25',
-    buttonLabel: '* CONGRESO *',
+    buttonLabel: 'CDLP | 2026',
     imgStart: false,
     img: "https://github.com/jcrommar/dallas-gerizim/blob/main/public/images/Congreso_2026_2.JPEG?raw=true",
     alt: 'Ministerio',
