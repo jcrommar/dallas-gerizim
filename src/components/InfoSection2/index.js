@@ -46,7 +46,7 @@ const InfoSection = ({
                                 <TopLine>{topLine}</TopLine>
                                 <Heading lightText={lightText}>{headline}</Heading>
                                 <Subtitle darkText={darkText}>{description}</Subtitle>
-                                <BtnWrap>
+                                {/*<BtnWrap>
                                     <ButtonLink to="//jcrommar.github.io/Congreso2024/" target="_blank" aria-label="Informacion"
                                     smooth={true}
                                     duration={500}
@@ -58,7 +58,7 @@ const InfoSection = ({
                                     dark2={dark2 ? 1 : 0}
                                     >
                                     {buttonLabel}</ButtonLink>
-                                </BtnWrap>
+                                </BtnWrap>*/}
                             </TextWrapper>
                         </Column2>
                     </InfoRow>
