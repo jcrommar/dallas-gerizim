@@ -6,7 +6,7 @@ export const homeObjTwo = {
     topLine: 'Marzo 2026',
     headline: 'Santa Cena',
     description: '1 de Marzo, 2026 | 10 AM',
-    buttonLabel: 'CDLP 2026 | INFORMACIÓN',
+    buttonLabel: 'Información',
     imgStart: false,
     img: "https://github.com/jcrommar/dallas-gerizim/blob/main/public/images/santa_cena_feb_2026.jpg?raw=true",
     alt: 'Ministerio',
