@@ -3,7 +3,7 @@ import { Link as LinkR } from 'react-router-dom';
 import { CgChevronDoubleDownR, CgChevronDoubleDown  } from 'react-icons/cg';
 
 export const HeroContainer = styled.div`
-    background: #0c0c0c;
+    background: ${({ theme }) => theme.colors.navy};
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,8 +21,8 @@ export const HeroContainer = styled.div`
         bottom: 0;
         background: linear-gradient(
             180deg, 
-            rgba(0, 0, 0, 0.2) 0%, 
-            rgba(0, 0, 0, 0.6) 100%
+            rgba(20, 35, 60, 0.55) 0%, 
+            rgba(20, 35, 60, 0.85) 100%
             ), 
             linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
         z-index: 2; 
@@ -32,7 +32,7 @@ export const HeroContainer = styled.div`
 export const HeroBg = styled.div`
     position: absolute;
     top: 0;
-    right 0;
+    right: 0;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -45,7 +45,7 @@ export const VideoBg = styled.video`
     height: 100%;
     -o-object-fit: cover;
     object-fit: cover;
-    background: #232a34;
+    background: ${({ theme }) => theme.colors.navy};
 `;
 
 export const HeroContent = styled.div`
@@ -79,7 +79,8 @@ export const SpotImg = styled.img`
 `;
 
 export const HeroH1 = styled.div`
-    color: #fff;
+    color: ${({ theme }) => theme.colors.cream};
+    font-family: ${({ theme }) => theme.fonts.heading};
     font-size: 48px;
     text-align: center;
 
@@ -120,7 +121,7 @@ export const SocialIconLink = styled(LinkR)`
     font-size: 24px;
     
     &:hover{
-        color: #2E9CCA;
+        color: ${({ theme }) => theme.colors.brassLight};
         transition: 0.3s ease-out
     }
 `;

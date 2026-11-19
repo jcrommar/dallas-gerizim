@@ -13,6 +13,7 @@ import {
     NavBtn,
     NavBtnLink,
 } from './NavbarElements';
+import theme from '../../theme';
 
 const Navbar = ({ toggle }) => {
     const [scrollNav, setScrollNav] = useState(false)
@@ -35,12 +36,12 @@ const Navbar = ({ toggle }) => {
 
     return (
         <>
-        <IconContext.Provider value={{ color: '#0474bc' }}>
+        <IconContext.Provider value={{ color: theme.colors.brass }}>
             <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
                     <NavLogoImg to='./' onClick={toggleHome} src="images/Gerizim2021LOGO_AllWHITE.png"></NavLogoImg>
                     <MobileIcon onClick={toggle}>
-                        <FaBars style={{color: '#B23850'}}/>
+                        <FaBars style={{ color: theme.colors.brass }}/>
                     </MobileIcon>
                     <NavMenu>
                         {/*<NavItem>

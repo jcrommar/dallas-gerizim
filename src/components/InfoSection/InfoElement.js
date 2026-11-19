@@ -2,8 +2,8 @@ import styled from 'styled-components';
 import { Link as LinkR } from 'react-router-dom';
 
 export const InfoContainer = styled.div`
-    color #fff;
-    background: ${({ lightBg }) => (lightBg ? '#E7E3D4' : '#29648A')};
+    color: ${({ theme }) => theme.colors.cream};
+    background: ${({ lightBg, theme }) => (lightBg ? theme.colors.ivory : theme.colors.navy)};
 
     @media screen and (max-width: 768px) {
         padding: 100px 0;
@@ -46,13 +46,13 @@ export const Column2 = styled.div`
 `;
 
 export const TextWrapper = styled.div`
-    max-width 540px;
+    max-width: 540px;
     padding-top: 0;
     padding-bottom: 60px;
 `;
 
 export const TopLine = styled.p`
-    color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#FFF')};
+    color: ${({ lightText, theme }) => (lightText ? theme.colors.brassLight : theme.colors.brassDark)};
     font-size: 16px;
     line-height: 16px;
     font-weight: 700;
@@ -65,16 +65,16 @@ export const Heading = styled.h1`
     margin-bottom: 14px;
     font-size: 32px;
     line-height: 1.1;
-    font-weight: 600;
-    color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#213159')};
+    font-weight: 400;
+    color: ${({ lightText, theme }) => (lightText ? theme.colors.cream : theme.colors.navy)};
 
-    @media screen and (max-widht: 480px) {
+    @media screen and (max-width: 480px) {
         font-size: 32px;
     } 
 `;
 
 export const TopLine2 = styled.p`
-    color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#FFF')};
+    color: ${({ lightText, theme }) => (lightText ? theme.colors.brassLight : theme.colors.brassDark)};
     font-size: 16px;
     line-height: 16px;
     font-weight: 700;
@@ -87,16 +87,16 @@ export const Heading2 = styled.h1`
     margin-bottom: 14px;
     font-size: 32px;
     line-height: 1.1;
-    font-weight: 600;
-    color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#213159')};
+    font-weight: 400;
+    color: ${({ lightText, theme }) => (lightText ? theme.colors.cream : theme.colors.navy)};
 
-    @media screen and (max-widht: 480px) {
+    @media screen and (max-width: 480px) {
         font-size: 32px;
     } 
 `;
 
 export const Subtitle = styled.p`
-    color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#FFF')};
+    color: ${({ lightText, theme }) => (lightText ? theme.colors.brassLight : theme.colors.brassDark)};
     font-size: 16px;
     line-height: 16px;
     font-weight: 700;
@@ -152,7 +152,7 @@ export const SocialIconLink = styled(LinkR)`
     margin-left: 10px;
 
     &:hover{
-        color: #B23850;
+        color: ${({ theme }) => theme.colors.brassLight};
         transition: 0.3s ease-out
     }
 `;

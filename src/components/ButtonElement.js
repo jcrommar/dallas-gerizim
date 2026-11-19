@@ -3,11 +3,12 @@ import { Link as LinkS } from 'react-scroll';
 import { Link as LinkR } from 'react-router-dom';
 
 export const Button = styled(LinkS)`
-    border-radius: 50px;
-    background: ${({ primary }) => (primary ? '#213159' : '#29648A')};
+    border-radius: 999px;
+    font-weight: 700;
+    background: ${({ primary, theme }) => (primary ? theme.colors.brass : theme.colors.navy)};
     white-space: nowrap;
     padding: ${({ big }) => (big ? '14px 48px' : '12px 30px')};
-    color: ${({ dark }) => (dark ? '#0474bc' : '#fff')};
+    color: ${({ dark, theme }) => (dark ? theme.colors.navy : theme.colors.cream)};
     font-size: ${({ fontBig }) => (fontBig ? '20px' : '16px')};
     outline: none;
     text-decoration: none;
@@ -20,16 +21,18 @@ export const Button = styled(LinkS)`
 
     &:hover {
         transition: all 0.2s ease-in-out;
-        background: ${({ primary }) => (primary ? '#fff' : '#B23859')};
+        background: ${({ primary, theme }) => (primary ? theme.colors.cream : theme.colors.brass)};
+        color: ${({ theme }) => theme.colors.navy};
     }
 `;
 
 export const ButtonLink = styled(LinkR)`
-    border-radius: 50px;
-    background: ${({ primary }) => (primary ? '#213159' : '#29648A')};
+    border-radius: 999px;
+    font-weight: 700;
+    background: ${({ primary, theme }) => (primary ? theme.colors.brass : theme.colors.navy)};
     white-space: nowrap;
     padding: ${({ big }) => (big ? '14px 48px' : '12px 30px')};
-    color: ${({ dark }) => (dark ? '#0474bc' : '#fff')};
+    color: ${({ dark, theme }) => (dark ? theme.colors.navy : theme.colors.cream)};
     font-size: ${({ fontBig }) => (fontBig ? '20px' : '16px')};
     outline: none;
     text-decoration: none;
@@ -42,7 +45,8 @@ export const ButtonLink = styled(LinkR)`
 
     &:hover {
         transition: all 0.2s ease-in-out;
-        background: ${({ primary }) => (primary ? '#fff' : '#B23859')};
+        background: ${({ primary, theme }) => (primary ? theme.colors.cream : theme.colors.brass)};
+        color: ${({ theme }) => theme.colors.navy};
     }
 `;
 

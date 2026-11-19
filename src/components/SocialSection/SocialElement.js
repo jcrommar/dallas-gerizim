@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const SocialContainer = styled.div`
-    color #fff;
-    background: ${({ lightBg }) => (lightBg ? '#E7E3D4' : '#29648A')};
+    color: ${({ theme }) => theme.colors.cream};
+    background: ${({ lightBg, theme }) => (lightBg ? theme.colors.ivory : theme.colors.navy)};
 
     @media screen and (max-width: 768px) {
         padding: 100px 0;
@@ -47,13 +47,13 @@ export const Column2 = styled.div`
 `;
 
 export const TextWrapper = styled.div`
-    max-width 540px;
+    max-width: 540px;
     padding-top: 0;
     padding-bottom: 60px;
 `;
 
 export const TopLine = styled.p`
-    color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#4267B2')};
+    color: ${({ lightText, theme }) => (lightText ? theme.colors.brassLight : theme.colors.brassDark)};
     font-size: 15px;
     line-height: 16px;
     font-weight: 700;
@@ -66,10 +66,10 @@ export const Heading = styled.h1`
     margin-bottom: 24px;
     font-size: 40px;
     line-height: 1.1;
-    font-weight: 600;
-    color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#213159')};
+    font-weight: 400;
+    color: ${({ lightText, theme }) => (lightText ? theme.colors.cream : theme.colors.navy)};
 
-    @media screen and (max-widht: 480px) {
+    @media screen and (max-width: 480px) {
         font-size: 32px;
     } 
 `;
@@ -79,7 +79,7 @@ export const Subtitle = styled.p`
     margin-bottom: 35px;
     font-size: 18px;
     line-height: 24px;
-    color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
+    color: ${({ darkText, theme }) => (darkText ? theme.colors.ink : theme.colors.cream)};
 `;
 
 export const BtnWrap = styled.div`

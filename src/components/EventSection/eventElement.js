@@ -6,7 +6,7 @@ export const ServicesContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #E7E3D4;
+    background: ${({ theme }) => theme.colors.ivory};
 `;
 
 export const ServicesContainer2 = styled.div`
@@ -15,12 +15,12 @@ export const ServicesContainer2 = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #E7E3D4;
+    background: ${({ theme }) => theme.colors.ivory};
 `;
 
 export const ServicesH1 = styled.h1`
     font-size: 2.5rem;
-    color: #213159 ;
+    color: ${({ theme }) => theme.colors.navy};
     margin-bottom: 20px;
 
     @media screen and (max-width: 480px) {
@@ -31,7 +31,7 @@ export const ServicesH1 = styled.h1`
 export const ServicesH2 = styled.h2`
     font-size: 1rem;
     padding-top: 10px;
-    color: #213159;
+    color: ${({ theme }) => theme.colors.navy};
 `;
 
 export const NavLogoImg = styled.img`

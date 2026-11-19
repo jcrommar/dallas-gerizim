@@ -6,7 +6,7 @@ export const ServicesContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #29648A;
+    background: ${({ theme }) => theme.colors.mist};
 
     @media screen and (max-width: 768px) {
         height: 1100px;
@@ -37,15 +37,16 @@ export const ServicesWrapper = styled.div`
 `;
 
 export const ServicesCard = styled.div`
-    background: #fff;
+    background: ${({ theme }) => theme.colors.white};
+    color: ${({ theme }) => theme.colors.ink};
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 16px;
     max-height: 340px;
     padding: 30px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.2)
+    box-shadow: ${({ theme }) => theme.shadow};
     transition: all 0.2s ease-in-out;
 
     &:hover {
@@ -63,7 +64,7 @@ export const ServicesIcon = styled.img`
 
 export const ServicesH1 = styled.h1`
     font-size: 2.5rem;
-    color: #fff;
+    color: ${({ theme }) => theme.colors.navy};
     margin-bottom: 64px;
 
     @media screen and (max-width: 480px) {
@@ -72,7 +73,8 @@ export const ServicesH1 = styled.h1`
 `;
 
 export const ServicesH2 = styled.h2`
-    font-size: 1rem;
+    font-size: 1.4rem;
+    color: ${({ theme }) => theme.colors.navy};
     margin-bottom: 10px;
 `;
 

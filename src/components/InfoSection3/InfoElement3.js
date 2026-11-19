@@ -1,14 +1,14 @@
 import styled from 'styled-components';
 
 export const InfoContainer = styled.div`
-    color #fff;
+    color: ${({ theme }) => theme.colors.cream};
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0 30px;
     position: relative;
     z-index: 1;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.squarespace-cdn.com/content/v1/60786b55d8b624331628c2e9/c9e5596e-8cef-447e-b196-eba6b6b9343a/Dallas.jpg?format=2500w');;
+    background: linear-gradient(rgba(20, 35, 60, 0.75), rgba(20, 35, 60, 0.75)), url('https://images.squarespace-cdn.com/content/v1/60786b55d8b624331628c2e9/c9e5596e-8cef-447e-b196-eba6b6b9343a/Dallas.jpg?format=2500w');
 
     @media screen and (max-width: 768px) {
         padding: 100px 0;
@@ -53,13 +53,13 @@ export const Column2 = styled.div`
 `;
 
 export const TextWrapper = styled.div`
-    max-width 540px;
+    max-width: 540px;
     padding-top: 0;
     padding-bottom: 60px;
 `;
 
 export const TopLine = styled.p`
-    color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#2E9CCA')};
+    color: ${({ theme }) => theme.colors.brassLight};
     font-size: 20px;
     line-height: 16px;
     font-weight: 700;
@@ -72,10 +72,10 @@ export const Heading = styled.h1`
     margin-bottom: 24px;
     font-size: 35px;
     line-height: 1.1;
-    font-weight: 600;
-    color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#213159')};
+    font-weight: 400;
+    color: ${({ lightText, theme }) => (lightText ? theme.colors.cream : theme.colors.navy)};
 
-    @media screen and (max-widht: 480px) {
+    @media screen and (max-width: 480px) {
         font-size: 32px;
     } 
 `;
@@ -85,7 +85,7 @@ export const Subtitle = styled.p`
     margin-bottom: 35px;
     font-size: 25px;
     line-height: 24px;
-    color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
+    color: ${({ darkText, theme }) => (darkText ? theme.colors.ink : theme.colors.cream)};
 `;
 
 export const BtnWrap = styled.div`
