@@ -9,12 +9,10 @@ import {
     homeObjOne,
  } from '../components/InfoSection/Data';
 import { 
-    homeObjTwo,
- } from '../components/InfoSection2/Data';
-import { 
     homeObjThree,
  } from '../components/InfoSection3/Data';
 import Services from '../components/Services';
+import VisitSection from '../components/VisitSection';
 import Footer from '../components/Footer/Index';
 import SocialSection from '../components/SocialSection';
 import {
@@ -34,8 +32,9 @@ const Home = () => {
         <Navbar toggle={toggle} />
         <HeroSection />
         <InfoSection {...homeObjOne} />
-        <InfoSection2 {...homeObjTwo} />
+        <InfoSection2 id="discover" />
         <Services />
+        <VisitSection />
         <InfoSection3 {...homeObjThree} />
         <SocialSection {...socialObj} />
         <Footer />

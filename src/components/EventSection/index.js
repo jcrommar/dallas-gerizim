@@ -35,7 +35,7 @@ const Services = () => {
                         src={`https://www.youtube.com/embed/live_stream?channel=UC81SMAEkXeXisfnRIYmw_yg`}
                         frameBorder="0"
                     />
-            {/*} <NavLogoImg src="images/live_now_gif.gif"></NavLogoImg> {*/}
+            {/*} <NavLogoImg src="/images/live_now_gif.gif"></NavLogoImg> {*/}
           </ServicesContainer>  
           <ServicesContainer2 id="evento">
                 <ServicesH2>
@@ -49,7 +49,7 @@ const Services = () => {
                         />
                     </section>
                 </ServicesH2>
-                {/*<NavLogoImg src="images/youtube_giphy.gif"></NavLogoImg>*/}
+                {/*<NavLogoImg src="/images/youtube_giphy.gif"></NavLogoImg>*/}
                 <BtnWrap>
                     <ButtonLink to="/" aria-label="Informacion"
                     smooth={true}

@@ -12,7 +12,7 @@ export const InfoContainer = styled.div`
 export const InfoWrapper = styled.div`
     display: grid;
     z-index: 1;
-    height: 860px;
+    min-height: 860px;
     width: 100%;
     max-width: 1100px;
     margin-right: auto;
@@ -104,4 +104,46 @@ export const Img = styled.img`
         0 22.3px 17.9px rgba(0, 0, 0, 0.072),
         0 41.8px 33.4px rgba(0, 0, 0, 0.086),
         0 100px 80px rgba(0, 0, 0, 0.12)
+`;
+
+export const MoreList = styled.div`
+    margin-top: 40px;
+    padding-top: 24px;
+    border-top: 1px solid rgba(20, 35, 60, 0.12);
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+
+    h3 {
+        font-size: 14px;
+        margin-bottom: 4px;
+    }
+`;
+
+export const MoreItem = styled.div`
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    color: ${({ theme }) => theme.colors.ink};
+    font-size: 16px;
+
+    strong {
+        color: ${({ theme }) => theme.colors.navy};
+        font-size: 18px;
+    }
+`;
+
+export const EmptyWrap = styled.div`
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 140px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    p {
+        margin-left: auto;
+        margin-right: auto;
+    }
 `;

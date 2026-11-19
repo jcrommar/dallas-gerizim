@@ -8,7 +8,7 @@ export const homeObjThree = {
     description: 'Ebenezer Dallas Gerizim',
     buttonLabel: 'Dirección',
     imgStart: false,
-    img: "https://images.squarespace-cdn.com/content/v1/60786b55d8b624331628c2e9/c9e5596e-8cef-447e-b196-eba6b6b9343a/Dallas.jpg?format=2500w",
+    img: "/images/Dallas.jpg",
     alt: 'Ubicacion',
     dark: false,
     primary: false,

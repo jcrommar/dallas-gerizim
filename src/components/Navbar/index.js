@@ -39,7 +39,7 @@ const Navbar = ({ toggle }) => {
         <IconContext.Provider value={{ color: theme.colors.brass }}>
             <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
-                    <NavLogoImg to='./' onClick={toggleHome} src="images/Gerizim2021LOGO_AllWHITE.png"></NavLogoImg>
+                    <NavLogoImg to='./' onClick={toggleHome} src="/images/Gerizim2021LOGO_AllWHITE.png"></NavLogoImg>
                     <MobileIcon onClick={toggle}>
                         <FaBars style={{ color: theme.colors.brass }}/>
                     </MobileIcon>

@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import Video from '../../video/Deleite.mp4';
 import { Button } from '../ButtonElement';
-import {FaFacebook, FaInstagram, FaYoutube, FaSpotify} from 'react-icons/fa';
+import {FaFacebook, FaInstagram, FaYoutube, FaSpotify, FaPlay} from 'react-icons/fa';
 import { 
     HeroContainer, 
     HeroBg, 
@@ -14,6 +14,9 @@ import {
     SocialIconLink,
     SocialIcons,
     SpotImg,
+    HeroCtas,
+    HeroCtaPrimary,
+    HeroCtaGhost,
 } from './HeroElements';
 
 const HeroSection = () => {
@@ -26,10 +29,18 @@ const HeroSection = () => {
     return (
         <HeroContainer>
             <HeroBg>
-                <VideoBg autoPlay loop muted playsInline src={Video} type='video/mp4' />
+                <VideoBg autoPlay loop muted playsInline preload='auto' poster='/images/hero-poster.jpg' src={Video} type='video/mp4' />
             </HeroBg>
             <HeroContent>
-            <HeroImg src="https://github.com/jcrommar/dallas-gerizim/blob/main/public/images/Gerizim2021LOGO_AllWHITE.png?raw=true"></HeroImg>
+            <HeroImg src="/images/Gerizim2021LOGO_AllWHITE.png" alt="Ebenezer Dallas Gerizim" />
+                <HeroCtas>
+                    <HeroCtaPrimary to="/youtube" aria-label="Ver servicio en vivo">
+                        <FaPlay size={12} /> Ver en vivo
+                    </HeroCtaPrimary>
+                    <HeroCtaGhost to="visita" href="#visita" smooth={true} duration={500} offset={-80}>
+                        Planea tu visita
+                    </HeroCtaGhost>
+                </HeroCtas>
                 <SocialIcons>
                             <SocialIconLink to="//facebook.com/EbenezerDallasGerizim" target="_blank" aria-label="Facebook">
                                 <FaFacebook />
@@ -44,7 +55,7 @@ const HeroSection = () => {
                                 <FaSpotify />
                             </SocialIconLink>
                 </SocialIcons>
-                <SpotImg src="https://github.com/jcrommar/dallas-gerizim/blob/main/public/images/spotify-podcast-badge-blk-grn-660x160.png?raw=true"></SpotImg>
+                <SpotImg src="/images/spotify-podcast-badge-blk-grn-660x160.png"></SpotImg>
                 <HeroBtnWrapper>
                     <Button
                     to="about" 

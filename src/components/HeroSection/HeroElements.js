@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { Link as LinkR } from 'react-router-dom';
+import { Link as LinkS } from 'react-scroll';
 import { CgChevronDoubleDownR, CgChevronDoubleDown  } from 'react-icons/cg';
 
 export const HeroContainer = styled.div`
@@ -64,8 +65,8 @@ export const HeroImg = styled.img`
     flex-direction: column;
     align-items: center;
     height: 100px;
-    width: 100px;
-    margin-bottom: 20px;
+    width: auto;
+    margin-bottom: 28px;
 `;
 
 export const SpotImg = styled.img`
@@ -94,7 +95,7 @@ export const HeroH1 = styled.div`
 `;
 
 export const HeroBtnWrapper = styled.div`
-    margin-top: 200px;
+    margin-top: 110px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -126,3 +127,51 @@ export const SocialIconLink = styled(LinkR)`
     }
 `;
 
+
+export const HeroCtas = styled.div`
+    display: flex;
+    gap: 14px;
+    margin-bottom: 28px;
+    flex-wrap: wrap;
+    justify-content: center;
+`;
+
+const ctaBase = `
+    border-radius: 999px;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 14px 28px;
+    min-height: 48px;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all 0.2s ease-in-out;
+`;
+
+export const HeroCtaPrimary = styled(LinkR)`
+    ${ctaBase}
+    background: ${({ theme }) => theme.colors.brass};
+    color: ${({ theme }) => theme.colors.navy};
+    border: 1px solid ${({ theme }) => theme.colors.brass};
+
+    &:hover {
+        background: ${({ theme }) => theme.colors.cream};
+        border-color: ${({ theme }) => theme.colors.cream};
+    }
+`;
+
+export const HeroCtaGhost = styled(LinkS)`
+    ${ctaBase}
+    background: rgba(20, 35, 60, 0.35);
+    color: ${({ theme }) => theme.colors.cream};
+    border: 1px solid rgba(245, 241, 234, 0.6);
+
+    &:hover {
+        background: ${({ theme }) => theme.colors.cream};
+        color: ${({ theme }) => theme.colors.navy};
+    }
+`;
