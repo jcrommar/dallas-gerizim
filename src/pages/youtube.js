@@ -1,14 +1,12 @@
 import React from 'react';
-import EventSection from '../components/EventSection';
+import LiveStream from '../components/LiveStream';
 import Footer from '../components/Footer/Index';
 
-const SigninPage = () => {
-    return (
-        <div>
-            <EventSection />
-            <Footer />
-        </div>
-    )
-}
+const LivePage = () => (
+    <>
+        <LiveStream />
+        <Footer />
+    </>
+);
 
-export default SigninPage;
+export default LivePage;
